@@ -1,21 +1,24 @@
 PODS:
+  - AnimatedCollectionViewLayout (0.3.0)
   - CircleMenu (3.0.0)
   - Gemini (1.2.0)
   - GuillotineMenu (3.0.1)
   - ViewAnimator (1.0.2)
 
 DEPENDENCIES:
+  - AnimatedCollectionViewLayout
   - CircleMenu
   - Gemini
   - GuillotineMenu (~> 3.0)
   - ViewAnimator
 
 SPEC CHECKSUMS:
+  AnimatedCollectionViewLayout: 504b992a4258eb39d2dd2b2b48e84b4b95860fd7
   CircleMenu: 63d02351f5cb550777b47aa19cc336e09fec2a98
   Gemini: acff98012273066f1b83c887731260abfaf18ec5
   GuillotineMenu: d186bcb1b827d9c2b8da564bc4535a0c4413acb1
   ViewAnimator: d7b18e0be98e05807f61ad886a36363727209377
 
-PODFILE CHECKSUM: f539e297efa75f18ffbce3957bf7a205b7a65ace
+PODFILE CHECKSUM: c756af66f2a4f07552142fcd3870c5fee1eb9913
 
 COCOAPODS: 1.3.1

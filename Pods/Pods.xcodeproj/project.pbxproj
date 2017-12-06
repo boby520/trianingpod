@@ -7,72 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02A6354F86F7A14A85AE537614C7BFFE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC68D1F2A98CCA78F104F026A53824 /* UIViewExtension.swift */; };
-		0416943EB92C70865A80EEC09AABC819 /* CircleRotateAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EB25E335A336941D90E2EEB1B5611D /* CircleRotateAnimatable.swift */; };
-		04C480BC8CDB2E3EF0B0A4290AAA2B62 /* GuillotineMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E18E2AE1FE55B2DFD01B352D3A45E77B /* GuillotineMenu-dummy.m */; };
-		0DA3FC116A3032034E9348C18CAF2111 /* RollRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E225E75F2EE27EC82024A56BF5A750CB /* RollRotationAnimatable.swift */; };
-		126497559A13DBF44A4772FE59850ACA /* CircleMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E073E0058D5759AEEBC1A25A0A9A7DA /* CircleMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13EF7BD2E5D84792DC490732EC7EB326 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C3CD0AD4726FDBA4D701CDC12E7AE7 /* Animation.swift */; };
-		142E0675024F15D3F85C1248BBBC2F7A /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8D5BFE8E9318729689E38EC775ED8 /* Direction.swift */; };
-		21C34264E6CAB85CD05313B0813E6348 /* CubeAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C9CDD794C8D4708C1F776B467346 /* CubeAnimatable.swift */; };
-		250E2DEACF58C933BCB3CF90B4B1415D /* Gemini-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6ADF10870BA9E5D7941E61A6008994 /* Gemini-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27A259B889DAFD3D57BA79FDC98C2859 /* ScaleAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8BC038CA04676864DC4319B2008DD /* ScaleAnimatable.swift */; };
-		29342BBBF23576175FA61B90C99313A5 /* GuillotineMenuTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFACF86F3A4E845A35A63C1CD40D79 /* GuillotineMenuTransitionAnimation.swift */; };
-		2ED01748FDE9523E8081F39D82891C4B /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D4EE0856012F4EFD02BD8EBE5BECC9 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3874C2E22EA2FE4693177EF5956331F8 /* Pods-trianingpod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21814591D7C58F10951AEBD64143EAF8 /* Pods-trianingpod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3889AD1CB1F2480EB676CD80959CE8EC /* Gemini-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD66E355DB33433730F71B0E7EF5BD /* Gemini-dummy.m */; };
-		3DD8CAA7CBB4F9B90855F31858D30924 /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD869698F3B8EEFFB20814A6812E183 /* CircleMenuLoader.swift */; };
-		3EA781A18359F372270FCC8F75C2D125 /* UIAppearanceAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78EB21B929EECEC8ACBEC55A6F03D85 /* UIAppearanceAnimatable.swift */; };
-		4336768D2B582D3E338CF7509BD70B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		468A300349277639359401575B543FB4 /* GuillotineMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7570D5A8BA3CC3AEB8B47C8C009BAEFC /* GuillotineMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02A6354F86F7A14A85AE537614C7BFFE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73489C0346F593006D134A35656CB075 /* UIViewExtension.swift */; };
+		03F52A2AF70E7FD97E14FEE5F8EE3285 /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C2A513D4735C21B55CB50BF12FC42 /* ViewAnimator.swift */; };
+		0416943EB92C70865A80EEC09AABC819 /* CircleRotateAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3179E017DE19CF249748BA3B7E460A /* CircleRotateAnimatable.swift */; };
+		04C480BC8CDB2E3EF0B0A4290AAA2B62 /* GuillotineMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 455A9E3BD71849A88CA7B005C8F963E1 /* GuillotineMenu-dummy.m */; };
+		07D7B1108D49DCCFDA57A97FF394FE49 /* Pods-trianingpod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21814591D7C58F10951AEBD64143EAF8 /* Pods-trianingpod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D1F9D12A768D945403B623E4C5305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0DA3FC116A3032034E9348C18CAF2111 /* RollRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BFE9F1DAAB82E885B50FDD593372B6 /* RollRotationAnimatable.swift */; };
+		0FDDDEBF4DB465F3EE253A58B15419DF /* SnapInAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4419862E911555E9B2BA47A653A3C49 /* SnapInAttributesAnimator.swift */; };
+		1125A5CE7857DA14A4C8E6D742C4596F /* RotateInOutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325FE94ECAAF8DBD60396AF66E34B26 /* RotateInOutAttributesAnimator.swift */; };
+		126497559A13DBF44A4772FE59850ACA /* CircleMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39062AB60454B5DDFCAC58BAF3903B44 /* CircleMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1802C70744FC5ACF32217ACBF5260972 /* ParallaxAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73E52FE187EB277093648274B46545 /* ParallaxAttributesAnimator.swift */; };
+		1DB658B6052ECB623162518123B77756 /* CrossFadeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379F4E5C67DE11CAB29102FB90DF62C /* CrossFadeAttributesAnimator.swift */; };
+		21C34264E6CAB85CD05313B0813E6348 /* CubeAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9321236912634E7EEF07B8ED63649D /* CubeAnimatable.swift */; };
+		250E2DEACF58C933BCB3CF90B4B1415D /* Gemini-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9E194037A91DE2F2B402D377086126 /* Gemini-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25C0613E2A219CCBC754E32839090857 /* LinearCardAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F052DD8E42C5D26FA835C1BDEB491EE /* LinearCardAttributesAnimator.swift */; };
+		27A259B889DAFD3D57BA79FDC98C2859 /* ScaleAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E55F0E33CF24424297B41166DC64D /* ScaleAnimatable.swift */; };
+		29342BBBF23576175FA61B90C99313A5 /* GuillotineMenuTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62836FC15F8563B6074CCDB98E00CDF9 /* GuillotineMenuTransitionAnimation.swift */; };
+		3448F958C584DB2F0007F60C1D7C8F0E /* AnimatedCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D26AC9836F14FD268B48FA7157414D2 /* AnimatedCollectionViewLayout-dummy.m */; };
+		3889AD1CB1F2480EB676CD80959CE8EC /* Gemini-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F23BCB08ABB160126F0C6785B7ABD461 /* Gemini-dummy.m */; };
+		3DD8CAA7CBB4F9B90855F31858D30924 /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25D234692AFCA80A5763CD6F538794 /* CircleMenuLoader.swift */; };
+		3EA781A18359F372270FCC8F75C2D125 /* UIAppearanceAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0EABDC39FB496C16DDB4171F5456D /* UIAppearanceAnimatable.swift */; };
+		468A300349277639359401575B543FB4 /* GuillotineMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B96E7C89F8080DABAA20AE84665372FA /* GuillotineMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BE6EDE6348A86A531FC18B611D179E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4FE8893FC7EB0AC0904A5FD29422D095 /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F8EB3A2208BC4786F61F50F9E7677D /* ViewAnimator-dummy.m */; };
+		520A9C5F907E09600B65840BD97D7CC7 /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF264771D81FC6D6ADB91B82F7CCC2 /* UIView+Anchor.swift */; };
 		528D0F3159068D5164A46F3F3AB31B0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		580784DDF5FE93DBC6C6C615FB0436C1 /* CustomAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA031E67AC196A268E241DC82AC44EF /* CustomAnimatable.swift */; };
-		5CD17D18260466FC735EECA32BC86137 /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62478A38BEAEAC51787A9F149DBE7FD9 /* Animatable.swift */; };
-		5E6D63929C555092395F0536F960D1C4 /* CircleMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B97F9C75C516EE76884016666B1A5C /* CircleMenu-dummy.m */; };
-		60287F00B242F7B474DA9D6264CADFD2 /* EasingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF99835B85A5DA76B36F58BBFF7C7D0 /* EasingAnimatable.swift */; };
-		60D87E8A97E717B0E4843D14D420118E /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5138718FFE2678E18D72AFA8B15C822C /* AnimationType.swift */; };
-		6B739F838095E9DE3667392D4B82D126 /* YawRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3DB42B2CB3BE4F181CA8A4F8E8B9 /* YawRotationAnimatable.swift */; };
+		580784DDF5FE93DBC6C6C615FB0436C1 /* CustomAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB9164C31CB6E61C12436CA571738C9 /* CustomAnimatable.swift */; };
+		5C81DF5C968BF629155093945E8AF0CF /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E08F338D30D9261C923BDA7FF5000E /* Animation.swift */; };
+		5E6D63929C555092395F0536F960D1C4 /* CircleMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2424CC2141ADE06A22E7E08CFE4F1F6 /* CircleMenu-dummy.m */; };
+		60287F00B242F7B474DA9D6264CADFD2 /* EasingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA84229EBD3C502687170C471863721 /* EasingAnimatable.swift */; };
+		60D46A7094987BBE822E3500D643C5AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52C026A6B3BDA2223E920C8465FA05 /* Constants.swift */; };
+		61C552D3D8E8535D17FE67E7A1241E2F /* AnimatedCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685CD2112EF1C98C75CAD6BCA8E78A7E /* AnimatedCollectionViewLayout.swift */; };
+		675FC8085F139617288ECDF622AFBDB7 /* LayoutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B75E969F7358F73640C11AA458AF0A /* LayoutAttributesAnimator.swift */; };
+		6B739F838095E9DE3667392D4B82D126 /* YawRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B487FE8BD1FFB5C818E66AE9670CBC /* YawRotationAnimatable.swift */; };
+		6C3E0ED549F157B68511CEA0FCFFBE2C /* CubeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE168707568F332EB3942872018C029 /* CubeAttributesAnimator.swift */; };
+		6E238D996A37E0E130A1916FDAFACD61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		70037719067023C26066A280A0B7228B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		87021576A14AEC628F5853FCFB4EECE8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E7F469640BF3C80DA1D2B3D3232D3 /* Constants.swift */; };
-		8AB555609DB257647921B9F07A3E8770 /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B49E213E2C4419446A57107CFD0AA7 /* ViewAnimatorConfig.swift */; };
-		8F418BCF1151FB34F297F908475B048D /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB8A4B19B5AC83B06FB6B82AFEBFB08 /* CircleMenuButton.swift */; };
-		9646DC55F18F9D893580F7281E4B7F46 /* PitchRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6962D229008C9B5E24C9D17614D967C8 /* PitchRotationAnimatable.swift */; };
-		982A4EAC609E7B3D1E4FDA4D73F44868 /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EB78A82B54A3C7A98545543307E1F /* ViewAnimator.swift */; };
-		A8DD138806B5C9EE2E717998C0612FCD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC4A682CBF84435C7BAE28DE35960EA /* Utilities.swift */; };
-		AD5410BF73E5EDA3DECF23466F5B5467 /* Pods-trianingpod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5A64BA2E50D8287B7A7310662759D /* Pods-trianingpod-dummy.m */; };
-		B448D2E2927793BFE05D43796AB9978E /* GeminiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65072DC7AF5D2639523F45DEA8AF522B /* GeminiCollectionView.swift */; };
-		BB3217D49F78C7C9849C2268861E8A4C /* EasingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1548594E8DE8F91EE821A637AE578438 /* EasingFunction.swift */; };
-		CEC8FC4A3321340F48708DCECA1B0EB7 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2C4FFF40BEB499313CF24B1EEE37FB /* CircleMenu.swift */; };
-		E8DD926AF84E78EA51D47E491EB19919 /* GeminiAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632E18CFC10B2528DE65C0873C843C8 /* GeminiAnimationModel.swift */; };
-		EC79F0ECCE5FF40BDCB08710BEE8C6FF /* GeminiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B023EC3EBCF01BD5E54B301F306FB6 /* GeminiCell.swift */; };
-		ECCD7221491D90EE4A09DE6BA18E8971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F89D42A49A79EA2B4A247B83D04CF5BA /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA22DB19C26AD4F1A53CD9305FC82BED /* ViewAnimator-dummy.m */; };
+		7F40B8BBCC675E39488BCC8C4B49268A /* ZoomInOutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C34A36293A12700794B72211BDA87 /* ZoomInOutAttributesAnimator.swift */; };
+		8F418BCF1151FB34F297F908475B048D /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD95DAC9D0E98AEDE528B8373CD9C33C /* CircleMenuButton.swift */; };
+		90E14060CC0BA66E2BBEC241110C5A2F /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533A40ED7514A8D1CC821DB949E4CC2B /* Animatable.swift */; };
+		9646DC55F18F9D893580F7281E4B7F46 /* PitchRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B844108A2C59F22D2B9704EFE453DC /* PitchRotationAnimatable.swift */; };
+		A2EDAC0271A2A2C724AA4294C2EF3D25 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2CCAB1A266BDE98460D0D6475C3E43 /* Utilities.swift */; };
+		A4312948C1CDF0C35BC92E6118602537 /* AnimatedCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC48B7E7AB3C8F7CFFB58FAE2BB93109 /* AnimatedCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54630491BB0108B124C967C2A100F08 /* PageAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198B4523B36B68FA738E40360C014825 /* PageAttributesAnimator.swift */; };
+		B448D2E2927793BFE05D43796AB9978E /* GeminiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BF402CDAF247F812989ABC3331128F /* GeminiCollectionView.swift */; };
+		BB3217D49F78C7C9849C2268861E8A4C /* EasingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075AE30837EF807C2EBD2042DC26D897 /* EasingFunction.swift */; };
+		C1CDB4914EC35342329048C7E1B97C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CEC8FC4A3321340F48708DCECA1B0EB7 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E65A0EC8860166016DE6440A8EB96D /* CircleMenu.swift */; };
+		D6F10168CB68CF2BE9A95B492265E32A /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2403BE8C6E110E991FA92D8EBB96CF /* AnimationType.swift */; };
+		E87212F4DDA72C9C7C02878226D76D73 /* Pods-trianingpod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5A64BA2E50D8287B7A7310662759D /* Pods-trianingpod-dummy.m */; };
+		E8DD926AF84E78EA51D47E491EB19919 /* GeminiAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F44F6F7EE744A14A264A1E79D9888 /* GeminiAnimationModel.swift */; };
+		EC064143002B5D634F19E5EEB55B5512 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F15E797D4DD21EAA0A3D2346D1C6859 /* Direction.swift */; };
+		EC79F0ECCE5FF40BDCB08710BEE8C6FF /* GeminiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004501EC0E5582B7026F55B335E00B0 /* GeminiCell.swift */; };
+		F0A7D024376267C95A49645F1C5292C6 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2BDFE0724FFED78636963CE18ECC21 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEE8B90D0ADD46E6B9AA1EC7247340B2 /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC0A59D7DDD9C46BDF01586FB4069B /* ViewAnimatorConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2EA2EA7FFA437BC47E6B7F6AAFC42ACC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 38266070EB7F3014AEA3D347C57046A6;
-			remoteInfo = ViewAnimator;
-		};
-		96CEF0BA6FC3F471827896AFC766D195 /* PBXContainerItemProxy */ = {
+		5B6E7571459D6500DB88225C5911ED61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FE0EA4A854B31B97AB23A6135FCBFABD;
 			remoteInfo = CircleMenu;
 		};
-		D1286D68A0F98B6EB68A461EAA3769A3 /* PBXContainerItemProxy */ = {
+		78046BD976737CD6DD3D1DA8484C0A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B5F9358EAD17782FA546BF99060034;
+			remoteInfo = AnimatedCollectionViewLayout;
+		};
+		813455EC7756C35CB6A93AD8D2E81A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55279576263A3C14E72445976FA5BAD4;
+			remoteInfo = ViewAnimator;
+		};
+		C03C2136E58F2F048EDFA1666A681AFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7BDE4A0097B901ED452A26CD14A2C344;
 			remoteInfo = GuillotineMenu;
 		};
-		E53CF847ABE32986ADCAB28A87EF695D /* PBXContainerItemProxy */ = {
+		FC09C7B8CE9316044D26B8B07840F440 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -82,89 +103,99 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F4B23D03B2B77019F53B3C50C57C47 /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		041A8FCC2899326128514F82C7D047DF /* Pods-trianingpod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trianingpod.debug.xcconfig"; sourceTree = "<group>"; };
-		057EB78A82B54A3C7A98545543307E1F /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
-		0C9FD64F9D681F6A62D32C6F280EBF39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05B5108576F90AB38CDD968CD7E6ED19 /* ViewAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.xcconfig; sourceTree = "<group>"; };
+		075AE30837EF807C2EBD2042DC26D897 /* EasingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingFunction.swift; path = Gemini/EasingFunction.swift; sourceTree = "<group>"; };
+		07680E93F81A9E43AAF9CB72F5D431D0 /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
+		0A3179E017DE19CF249748BA3B7E460A /* CircleRotateAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleRotateAnimatable.swift; path = Gemini/CircleRotateAnimatable.swift; sourceTree = "<group>"; };
+		0C44DD13C90B030F1D1DEF3B0CBB6960 /* Gemini.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Gemini.modulemap; sourceTree = "<group>"; };
 		12CD4963653A39C18FC07622B06C2B89 /* Pods-trianingpod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-trianingpod-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1548594E8DE8F91EE821A637AE578438 /* EasingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingFunction.swift; path = Gemini/EasingFunction.swift; sourceTree = "<group>"; };
+		198B4523B36B68FA738E40360C014825 /* PageAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageAttributesAnimator.swift; path = Source/PageAttributesAnimator.swift; sourceTree = "<group>"; };
+		19ACA2EE587F7891B0A50CF05C733A2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1438FD62D0690529089BD1D246E279 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D26AC9836F14FD268B48FA7157414D2 /* AnimatedCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		1DA84229EBD3C502687170C471863721 /* EasingAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingAnimatable.swift; path = Gemini/EasingAnimatable.swift; sourceTree = "<group>"; };
 		21814591D7C58F10951AEBD64143EAF8 /* Pods-trianingpod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-trianingpod-umbrella.h"; sourceTree = "<group>"; };
-		21E0D9A3397CC6A67F7FA869A6212A2D /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
-		2CC4A682CBF84435C7BAE28DE35960EA /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ViewAnimator/Classes/Utilities.swift; sourceTree = "<group>"; };
-		33B8D5BFE8E9318729689E38EC775ED8 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = ViewAnimator/Classes/Direction.swift; sourceTree = "<group>"; };
-		34B023EC3EBCF01BD5E54B301F306FB6 /* GeminiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCell.swift; path = Gemini/GeminiCell.swift; sourceTree = "<group>"; };
-		3632E18CFC10B2528DE65C0873C843C8 /* GeminiAnimationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiAnimationModel.swift; path = Gemini/GeminiAnimationModel.swift; sourceTree = "<group>"; };
+		21E6BC664680EAEEA3D669FFE9F83C02 /* Gemini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gemini.framework; path = Gemini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BFE9F1DAAB82E885B50FDD593372B6 /* RollRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RollRotationAnimatable.swift; path = Gemini/RollRotationAnimatable.swift; sourceTree = "<group>"; };
+		2F052DD8E42C5D26FA835C1BDEB491EE /* LinearCardAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearCardAttributesAnimator.swift; path = Source/LinearCardAttributesAnimator.swift; sourceTree = "<group>"; };
+		2FAB6D4EDE86646AFBB5BF65E45829C6 /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		312F44F6F7EE744A14A264A1E79D9888 /* GeminiAnimationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiAnimationModel.swift; path = Gemini/GeminiAnimationModel.swift; sourceTree = "<group>"; };
+		3325FE94ECAAF8DBD60396AF66E34B26 /* RotateInOutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotateInOutAttributesAnimator.swift; path = Source/RotateInOutAttributesAnimator.swift; sourceTree = "<group>"; };
 		36A5A64BA2E50D8287B7A7310662759D /* Pods-trianingpod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-trianingpod-dummy.m"; sourceTree = "<group>"; };
-		3EBB73B57D9C93D7D3D2C363C19C84B9 /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
-		4BB8A4B19B5AC83B06FB6B82AFEBFB08 /* CircleMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuButton.swift; path = CircleMenuLib/CircleMenuButton/CircleMenuButton.swift; sourceTree = "<group>"; };
-		4C8510489992B522102DB82AC1A8622C /* GuillotineMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuillotineMenu-prefix.pch"; sourceTree = "<group>"; };
-		4CCD66E355DB33433730F71B0E7EF5BD /* Gemini-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gemini-dummy.m"; sourceTree = "<group>"; };
-		4E073E0058D5759AEEBC1A25A0A9A7DA /* CircleMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-umbrella.h"; sourceTree = "<group>"; };
-		5138718FFE2678E18D72AFA8B15C822C /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/AnimationType.swift; sourceTree = "<group>"; };
-		579970526D98E8690AC02389FEA29A6E /* Pods_trianingpod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_trianingpod.framework; path = "Pods-trianingpod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E08F338D30D9261C923BDA7FF5000E /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ViewAnimator/Classes/Animation.swift; sourceTree = "<group>"; };
+		39062AB60454B5DDFCAC58BAF3903B44 /* CircleMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-umbrella.h"; sourceTree = "<group>"; };
+		39CEE35542EBA558FECE6D1BADF9D6DF /* GuillotineMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuillotineMenu-prefix.pch"; sourceTree = "<group>"; };
+		3F73E52FE187EB277093648274B46545 /* ParallaxAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxAttributesAnimator.swift; path = Source/ParallaxAttributesAnimator.swift; sourceTree = "<group>"; };
+		42B844108A2C59F22D2B9704EFE453DC /* PitchRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchRotationAnimatable.swift; path = Gemini/PitchRotationAnimatable.swift; sourceTree = "<group>"; };
+		455A9E3BD71849A88CA7B005C8F963E1 /* GuillotineMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GuillotineMenu-dummy.m"; sourceTree = "<group>"; };
+		47990FC905E9E1991B0FC9E17BD5A031 /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
+		4BE168707568F332EB3942872018C029 /* CubeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAttributesAnimator.swift; path = Source/CubeAttributesAnimator.swift; sourceTree = "<group>"; };
+		51D931A0537EC51559E30C092A8CF1F8 /* Pods_trianingpod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_trianingpod.framework; path = "Pods-trianingpod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533A40ED7514A8D1CC821DB949E4CC2B /* Animatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animatable.swift; path = ViewAnimator/Classes/Animatable.swift; sourceTree = "<group>"; };
+		53BC0A59D7DDD9C46BDF01586FB4069B /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
 		5F36370257126BBE26F79BCB4248D9A6 /* Pods-trianingpod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-trianingpod-frameworks.sh"; sourceTree = "<group>"; };
-		62478A38BEAEAC51787A9F149DBE7FD9 /* Animatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animatable.swift; path = ViewAnimator/Classes/Animatable.swift; sourceTree = "<group>"; };
-		62EB25E335A336941D90E2EEB1B5611D /* CircleRotateAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleRotateAnimatable.swift; path = Gemini/CircleRotateAnimatable.swift; sourceTree = "<group>"; };
-		65072DC7AF5D2639523F45DEA8AF522B /* GeminiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCollectionView.swift; path = Gemini/GeminiCollectionView.swift; sourceTree = "<group>"; };
+		623FE963C267EC3E600A6D7B17AA5267 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62836FC15F8563B6074CCDB98E00CDF9 /* GuillotineMenuTransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuillotineMenuTransitionAnimation.swift; path = GuillotineMenu/GuillotineMenuTransitionAnimation.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		663F3DB42B2CB3BE4F181CA8A4F8E8B9 /* YawRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YawRotationAnimatable.swift; path = Gemini/YawRotationAnimatable.swift; sourceTree = "<group>"; };
-		676E7F469640BF3C80DA1D2B3D3232D3 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ViewAnimator/Classes/Constants.swift; sourceTree = "<group>"; };
-		6962D229008C9B5E24C9D17614D967C8 /* PitchRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchRotationAnimatable.swift; path = Gemini/PitchRotationAnimatable.swift; sourceTree = "<group>"; };
-		69A775B114F5816781EBCE73FF2F8F6C /* ViewAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.xcconfig; sourceTree = "<group>"; };
-		75077F52FDB9867FB7AC81557EF375AC /* Gemini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gemini.framework; path = Gemini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7570D5A8BA3CC3AEB8B47C8C009BAEFC /* GuillotineMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuillotineMenu-umbrella.h"; sourceTree = "<group>"; };
+		685CD2112EF1C98C75CAD6BCA8E78A7E /* AnimatedCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedCollectionViewLayout.swift; path = Source/AnimatedCollectionViewLayout.swift; sourceTree = "<group>"; };
+		6EE0EABDC39FB496C16DDB4171F5456D /* UIAppearanceAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAppearanceAnimatable.swift; path = Gemini/UIAppearanceAnimatable.swift; sourceTree = "<group>"; };
+		73489C0346F593006D134A35656CB075 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Gemini/UIViewExtension.swift; sourceTree = "<group>"; };
+		73F8EB3A2208BC4786F61F50F9E7677D /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
+		75BF264771D81FC6D6ADB91B82F7CCC2 /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "Source/UIView+Anchor.swift"; sourceTree = "<group>"; };
 		77539B14818F4EFC313664630F4B3CC8 /* Pods-trianingpod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trianingpod.release.xcconfig"; sourceTree = "<group>"; };
-		79C3CD0AD4726FDBA4D701CDC12E7AE7 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ViewAnimator/Classes/Animation.swift; sourceTree = "<group>"; };
-		7AA031E67AC196A268E241DC82AC44EF /* CustomAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAnimatable.swift; path = Gemini/CustomAnimatable.swift; sourceTree = "<group>"; };
-		7D2C4FFF40BEB499313CF24B1EEE37FB /* CircleMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenu.swift; path = CircleMenuLib/CircleMenu.swift; sourceTree = "<group>"; };
-		81AA829AABE045AFCCE248739B492011 /* GuillotineMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GuillotineMenu.xcconfig; sourceTree = "<group>"; };
-		85B49E213E2C4419446A57107CFD0AA7 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
-		87B97F9C75C516EE76884016666B1A5C /* CircleMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleMenu-dummy.m"; sourceTree = "<group>"; };
-		88E6090090CA3309B83E60B8571FE0A4 /* Gemini-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-prefix.pch"; sourceTree = "<group>"; };
-		8B97704630868B38656904B6400CA44E /* Gemini.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Gemini.modulemap; sourceTree = "<group>"; };
+		7B4C2A513D4735C21B55CB50BF12FC42 /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
+		7E2BDFE0724FFED78636963CE18ECC21 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
+		7F15E797D4DD21EAA0A3D2346D1C6859 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = ViewAnimator/Classes/Direction.swift; sourceTree = "<group>"; };
+		8379F4E5C67DE11CAB29102FB90DF62C /* CrossFadeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossFadeAttributesAnimator.swift; path = Source/CrossFadeAttributesAnimator.swift; sourceTree = "<group>"; };
+		85CED797906AC3CD6EAB5A3843A4FDD3 /* AnimatedCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedCollectionViewLayout.framework; path = AnimatedCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F46E278C308398493E4C6F598566684 /* Gemini-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A8814600B2F3E96F8A31AD236B7314 /* GuillotineMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GuillotineMenu.framework; path = GuillotineMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2403BE8C6E110E991FA92D8EBB96CF /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/AnimationType.swift; sourceTree = "<group>"; };
 		9F60E8B17E0CDF3C77ACD121C7BB8E5A /* Pods-trianingpod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-trianingpod.modulemap"; sourceTree = "<group>"; };
-		A27C3628E8AEB8B2EC83858A5366FB0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9BE3BDF9F774C9A00AB4BC0B946AA1D /* GuillotineMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GuillotineMenu.framework; path = GuillotineMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B480AC3251F766B047F63C18593A835F /* CircleMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleMenu.xcconfig; sourceTree = "<group>"; };
-		B94CC0CC7302392ACDB9DD86719CCB43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3823DDB74EEFDC34624BF1C3B27F2A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4419862E911555E9B2BA47A653A3C49 /* SnapInAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapInAttributesAnimator.swift; path = Source/SnapInAttributesAnimator.swift; sourceTree = "<group>"; };
+		A58E55F0E33CF24424297B41166DC64D /* ScaleAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleAnimatable.swift; path = Gemini/ScaleAnimatable.swift; sourceTree = "<group>"; };
+		A6FCACF59CCC413BDD618FDF685B6C97 /* GuillotineMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GuillotineMenu.xcconfig; sourceTree = "<group>"; };
+		A7B75E969F7358F73640C11AA458AF0A /* LayoutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAttributesAnimator.swift; path = Source/LayoutAttributesAnimator.swift; sourceTree = "<group>"; };
+		A809F88EFE255575138F815E8C0C5958 /* CircleMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleMenu.framework; path = CircleMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BF402CDAF247F812989ABC3331128F /* GeminiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCollectionView.swift; path = Gemini/GeminiCollectionView.swift; sourceTree = "<group>"; };
+		AA57EFBC98AEFEC5106F712C60782529 /* Gemini.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.xcconfig; sourceTree = "<group>"; };
+		AAF90C1C14F2D1829BA3FCF62D509EBE /* GuillotineMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GuillotineMenu.modulemap; sourceTree = "<group>"; };
+		AF2CCAB1A266BDE98460D0D6475C3E43 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ViewAnimator/Classes/Utilities.swift; sourceTree = "<group>"; };
+		AF342DF432BB7274D751CD376F72F1F4 /* CircleMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-prefix.pch"; sourceTree = "<group>"; };
+		AF88977176EE97CC114DDC6388F41C41 /* AnimatedCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnimatedCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		B0CF7A7FEEE86B0E1FBC629CFEE226EE /* CircleMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CircleMenu.modulemap; sourceTree = "<group>"; };
+		B2424CC2141ADE06A22E7E08CFE4F1F6 /* CircleMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleMenu-dummy.m"; sourceTree = "<group>"; };
+		B96E7C89F8080DABAA20AE84665372FA /* GuillotineMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuillotineMenu-umbrella.h"; sourceTree = "<group>"; };
+		BC52C026A6B3BDA2223E920C8465FA05 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ViewAnimator/Classes/Constants.swift; sourceTree = "<group>"; };
+		BEB9164C31CB6E61C12436CA571738C9 /* CustomAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAnimatable.swift; path = Gemini/CustomAnimatable.swift; sourceTree = "<group>"; };
 		C07931619A8B2C26375F6478E979F0EF /* Pods-trianingpod-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-trianingpod-resources.sh"; sourceTree = "<group>"; };
-		C5B45110378C5201B4771F30F5A3D535 /* Gemini.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.xcconfig; sourceTree = "<group>"; };
+		C0B3AFE9EC08093541A9CA94D128EE6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39AF4DE2CA84D63DCD98F35BFE5EC88 /* AnimatedCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		C6E65A0EC8860166016DE6440A8EB96D /* CircleMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenu.swift; path = CircleMenuLib/CircleMenu.swift; sourceTree = "<group>"; };
 		C78ECD32AD00F4FB1FF443D6E763D53E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C83DF268C9B2D098DD6FD390120D7B6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9AA0DA7D5D8539A2C89284D395E9092 /* Pods-trianingpod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trianingpod-acknowledgements.plist"; sourceTree = "<group>"; };
-		CBDC68D1F2A98CCA78F104F026A53824 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Gemini/UIViewExtension.swift; sourceTree = "<group>"; };
-		CD6ADF10870BA9E5D7941E61A6008994 /* Gemini-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-umbrella.h"; sourceTree = "<group>"; };
-		D0E8BC038CA04676864DC4319B2008DD /* ScaleAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleAnimatable.swift; path = Gemini/ScaleAnimatable.swift; sourceTree = "<group>"; };
-		D3D4EE0856012F4EFD02BD8EBE5BECC9 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
-		D80E182F908C065C99AB08CBDE5ED001 /* CircleMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CircleMenu.modulemap; sourceTree = "<group>"; };
-		DA22DB19C26AD4F1A53CD9305FC82BED /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
-		DE3D2C6F11291E2A6D19345D6F4E48E4 /* CircleMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-prefix.pch"; sourceTree = "<group>"; };
-		DEF99835B85A5DA76B36F58BBFF7C7D0 /* EasingAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingAnimatable.swift; path = Gemini/EasingAnimatable.swift; sourceTree = "<group>"; };
-		DFD869698F3B8EEFFB20814A6812E183 /* CircleMenuLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuLoader.swift; path = CircleMenuLib/CircleMenuLoader/CircleMenuLoader.swift; sourceTree = "<group>"; };
-		E18E2AE1FE55B2DFD01B352D3A45E77B /* GuillotineMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GuillotineMenu-dummy.m"; sourceTree = "<group>"; };
-		E225E75F2EE27EC82024A56BF5A750CB /* RollRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RollRotationAnimatable.swift; path = Gemini/RollRotationAnimatable.swift; sourceTree = "<group>"; };
-		E539478BDCF735300CE68F85C2579560 /* CircleMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleMenu.framework; path = CircleMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5AFACF86F3A4E845A35A63C1CD40D79 /* GuillotineMenuTransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuillotineMenuTransitionAnimation.swift; path = GuillotineMenu/GuillotineMenuTransitionAnimation.swift; sourceTree = "<group>"; };
-		E78EB21B929EECEC8ACBEC55A6F03D85 /* UIAppearanceAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAppearanceAnimatable.swift; path = Gemini/UIAppearanceAnimatable.swift; sourceTree = "<group>"; };
-		E91D9AEE4339D832644461D938EE1BFB /* GuillotineMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GuillotineMenu.modulemap; sourceTree = "<group>"; };
-		EB31C9CDD794C8D4708C1F776B467346 /* CubeAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAnimatable.swift; path = Gemini/CubeAnimatable.swift; sourceTree = "<group>"; };
+		CA9321236912634E7EEF07B8ED63649D /* CubeAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAnimatable.swift; path = Gemini/CubeAnimatable.swift; sourceTree = "<group>"; };
+		D46C34A36293A12700794B72211BDA87 /* ZoomInOutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomInOutAttributesAnimator.swift; path = Source/ZoomInOutAttributesAnimator.swift; sourceTree = "<group>"; };
+		DF25D234692AFCA80A5763CD6F538794 /* CircleMenuLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuLoader.swift; path = CircleMenuLib/CircleMenuLoader/CircleMenuLoader.swift; sourceTree = "<group>"; };
+		E4816F22AC268B1782FC181998B996DC /* AnimatedCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		F004501EC0E5582B7026F55B335E00B0 /* GeminiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCell.swift; path = Gemini/GeminiCell.swift; sourceTree = "<group>"; };
+		F23BCB08ABB160126F0C6785B7ABD461 /* Gemini-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gemini-dummy.m"; sourceTree = "<group>"; };
+		F441E0EFDC917AF042D91B9D0339191E /* CircleMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleMenu.xcconfig; sourceTree = "<group>"; };
+		F5B487FE8BD1FFB5C818E66AE9670CBC /* YawRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YawRotationAnimatable.swift; path = Gemini/YawRotationAnimatable.swift; sourceTree = "<group>"; };
+		FA9E194037A91DE2F2B402D377086126 /* Gemini-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-umbrella.h"; sourceTree = "<group>"; };
+		FC48B7E7AB3C8F7CFFB58FAE2BB93109 /* AnimatedCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		FD95DAC9D0E98AEDE528B8373CD9C33C /* CircleMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuButton.swift; path = CircleMenuLib/CircleMenuButton/CircleMenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14BC1B2449720D5978B508623377E7A4 /* Frameworks */ = {
+		572626C366E218C3C49D0D3180899432 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCD7221491D90EE4A09DE6BA18E8971 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		488C84DA29FB2A5720D4F65D63941C8A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4336768D2B582D3E338CF7509BD70B60 /* Foundation.framework in Frameworks */,
+				6E238D996A37E0E130A1916FDAFACD61 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +207,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B286E7A43102940D94EC219C3FBC877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CDB4914EC35342329048C7E1B97C78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B4552B4946C028A8A734D8059EBABF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4BE6EDE6348A86A531FC18B611D179E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECFBC443E4E4C0AD95C650F93D9C293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091D1F9D12A768D945403B623E4C5305 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,55 +242,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27BBE0AECA8FC8B018F531E34E93F9EC /* Support Files */ = {
+		1C7099ED20F276D1EE25ECF1E6140BF2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B94CC0CC7302392ACDB9DD86719CCB43 /* Info.plist */,
-				3EBB73B57D9C93D7D3D2C363C19C84B9 /* ViewAnimator.modulemap */,
-				69A775B114F5816781EBCE73FF2F8F6C /* ViewAnimator.xcconfig */,
-				DA22DB19C26AD4F1A53CD9305FC82BED /* ViewAnimator-dummy.m */,
-				21E0D9A3397CC6A67F7FA869A6212A2D /* ViewAnimator-prefix.pch */,
-				D3D4EE0856012F4EFD02BD8EBE5BECC9 /* ViewAnimator-umbrella.h */,
+				FAB8F5B604F24D08D96813C70E77C0B8 /* AnimatedCollectionViewLayout */,
+				B4354E5C64765F1A305EE74EC9D8F31F /* CircleMenu */,
+				CC530995236CD2EDB3FFFCB37BF7360A /* Gemini */,
+				6BCD0B98B4F8F004C16589DF3F942970 /* GuillotineMenu */,
+				FE51C0E256745BB8BFC89C296692AB5D /* ViewAnimator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4AD108D01714B27D80EB062C8ADADAB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				623FE963C267EC3E600A6D7B17AA5267 /* Info.plist */,
+				07680E93F81A9E43AAF9CB72F5D431D0 /* ViewAnimator.modulemap */,
+				05B5108576F90AB38CDD968CD7E6ED19 /* ViewAnimator.xcconfig */,
+				73F8EB3A2208BC4786F61F50F9E7677D /* ViewAnimator-dummy.m */,
+				47990FC905E9E1991B0FC9E17BD5A031 /* ViewAnimator-prefix.pch */,
+				7E2BDFE0724FFED78636963CE18ECC21 /* ViewAnimator-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ViewAnimator";
 			sourceTree = "<group>";
 		};
-		3EA70A5B5C9517AE8042F2EEFC2568B5 /* Support Files */ = {
+		58D49FFB0ED6830A5DD2B9324C282CB9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D80E182F908C065C99AB08CBDE5ED001 /* CircleMenu.modulemap */,
-				B480AC3251F766B047F63C18593A835F /* CircleMenu.xcconfig */,
-				87B97F9C75C516EE76884016666B1A5C /* CircleMenu-dummy.m */,
-				DE3D2C6F11291E2A6D19345D6F4E48E4 /* CircleMenu-prefix.pch */,
-				4E073E0058D5759AEEBC1A25A0A9A7DA /* CircleMenu-umbrella.h */,
-				0C9FD64F9D681F6A62D32C6F280EBF39 /* Info.plist */,
+				AAF90C1C14F2D1829BA3FCF62D509EBE /* GuillotineMenu.modulemap */,
+				A6FCACF59CCC413BDD618FDF685B6C97 /* GuillotineMenu.xcconfig */,
+				455A9E3BD71849A88CA7B005C8F963E1 /* GuillotineMenu-dummy.m */,
+				39CEE35542EBA558FECE6D1BADF9D6DF /* GuillotineMenu-prefix.pch */,
+				B96E7C89F8080DABAA20AE84665372FA /* GuillotineMenu-umbrella.h */,
+				A3823DDB74EEFDC34624BF1C3B27F2A0 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CircleMenu";
+			path = "../Target Support Files/GuillotineMenu";
 			sourceTree = "<group>";
 		};
-		523788587740E5BE0A073EB0498289EA /* Gemini */ = {
+		64D64B76E9491176AF3E36795D7774F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				62EB25E335A336941D90E2EEB1B5611D /* CircleRotateAnimatable.swift */,
-				EB31C9CDD794C8D4708C1F776B467346 /* CubeAnimatable.swift */,
-				7AA031E67AC196A268E241DC82AC44EF /* CustomAnimatable.swift */,
-				DEF99835B85A5DA76B36F58BBFF7C7D0 /* EasingAnimatable.swift */,
-				1548594E8DE8F91EE821A637AE578438 /* EasingFunction.swift */,
-				3632E18CFC10B2528DE65C0873C843C8 /* GeminiAnimationModel.swift */,
-				34B023EC3EBCF01BD5E54B301F306FB6 /* GeminiCell.swift */,
-				65072DC7AF5D2639523F45DEA8AF522B /* GeminiCollectionView.swift */,
-				6962D229008C9B5E24C9D17614D967C8 /* PitchRotationAnimatable.swift */,
-				E225E75F2EE27EC82024A56BF5A750CB /* RollRotationAnimatable.swift */,
-				D0E8BC038CA04676864DC4319B2008DD /* ScaleAnimatable.swift */,
-				E78EB21B929EECEC8ACBEC55A6F03D85 /* UIAppearanceAnimatable.swift */,
-				CBDC68D1F2A98CCA78F104F026A53824 /* UIViewExtension.swift */,
-				663F3DB42B2CB3BE4F181CA8A4F8E8B9 /* YawRotationAnimatable.swift */,
-				E0470A08995900E547373AA0F6A5309E /* Support Files */,
+				0C44DD13C90B030F1D1DEF3B0CBB6960 /* Gemini.modulemap */,
+				AA57EFBC98AEFEC5106F712C60782529 /* Gemini.xcconfig */,
+				F23BCB08ABB160126F0C6785B7ABD461 /* Gemini-dummy.m */,
+				8F46E278C308398493E4C6F598566684 /* Gemini-prefix.pch */,
+				FA9E194037A91DE2F2B402D377086126 /* Gemini-umbrella.h */,
+				19ACA2EE587F7891B0A50CF05C733A2F /* Info.plist */,
 			);
-			name = Gemini;
-			path = Gemini;
+			name = "Support Files";
+			path = "../Target Support Files/Gemini";
+			sourceTree = "<group>";
+		};
+		6BCD0B98B4F8F004C16589DF3F942970 /* GuillotineMenu */ = {
+			isa = PBXGroup;
+			children = (
+				62836FC15F8563B6074CCDB98E00CDF9 /* GuillotineMenuTransitionAnimation.swift */,
+				58D49FFB0ED6830A5DD2B9324C282CB9 /* Support Files */,
+			);
+			name = GuillotineMenu;
+			path = GuillotineMenu;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -251,45 +311,49 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8E06E459D0DD31A0521989D2F1E46A3E /* Pods */,
-				FEAD0ACC8A9FEF4027D4DB8906E12147 /* Products */,
+				1C7099ED20F276D1EE25ECF1E6140BF2 /* Pods */,
+				A904D4EDB723841848D7DC89763C30EC /* Products */,
 				CD22205A015F36323C024B7FA3E9DA96 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8E06E459D0DD31A0521989D2F1E46A3E /* Pods */ = {
+		906D222A1D964CC9D9F18DA6289780D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C5A9A2C887C18AED305ECA17B8D03CE6 /* CircleMenu */,
-				523788587740E5BE0A073EB0498289EA /* Gemini */,
-				90E0076D4E47C61C035195896D032134 /* GuillotineMenu */,
-				DF1EE52F778345ED83510EF7A976172D /* ViewAnimator */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		90E0076D4E47C61C035195896D032134 /* GuillotineMenu */ = {
-			isa = PBXGroup;
-			children = (
-				E5AFACF86F3A4E845A35A63C1CD40D79 /* GuillotineMenuTransitionAnimation.swift */,
-				B807E5047B2AEE66A375E77723B4A3FD /* Support Files */,
-			);
-			name = GuillotineMenu;
-			path = GuillotineMenu;
-			sourceTree = "<group>";
-		};
-		B807E5047B2AEE66A375E77723B4A3FD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E91D9AEE4339D832644461D938EE1BFB /* GuillotineMenu.modulemap */,
-				81AA829AABE045AFCCE248739B492011 /* GuillotineMenu.xcconfig */,
-				E18E2AE1FE55B2DFD01B352D3A45E77B /* GuillotineMenu-dummy.m */,
-				4C8510489992B522102DB82AC1A8622C /* GuillotineMenu-prefix.pch */,
-				7570D5A8BA3CC3AEB8B47C8C009BAEFC /* GuillotineMenu-umbrella.h */,
-				A27C3628E8AEB8B2EC83858A5366FB0E /* Info.plist */,
+				B0CF7A7FEEE86B0E1FBC629CFEE226EE /* CircleMenu.modulemap */,
+				F441E0EFDC917AF042D91B9D0339191E /* CircleMenu.xcconfig */,
+				B2424CC2141ADE06A22E7E08CFE4F1F6 /* CircleMenu-dummy.m */,
+				AF342DF432BB7274D751CD376F72F1F4 /* CircleMenu-prefix.pch */,
+				39062AB60454B5DDFCAC58BAF3903B44 /* CircleMenu-umbrella.h */,
+				1C1438FD62D0690529089BD1D246E279 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/GuillotineMenu";
+			path = "../Target Support Files/CircleMenu";
+			sourceTree = "<group>";
+		};
+		A904D4EDB723841848D7DC89763C30EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85CED797906AC3CD6EAB5A3843A4FDD3 /* AnimatedCollectionViewLayout.framework */,
+				A809F88EFE255575138F815E8C0C5958 /* CircleMenu.framework */,
+				21E6BC664680EAEEA3D669FFE9F83C02 /* Gemini.framework */,
+				98A8814600B2F3E96F8A31AD236B7314 /* GuillotineMenu.framework */,
+				51D931A0537EC51559E30C092A8CF1F8 /* Pods_trianingpod.framework */,
+				2FAB6D4EDE86646AFBB5BF65E45829C6 /* ViewAnimator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4354E5C64765F1A305EE74EC9D8F31F /* CircleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C6E65A0EC8860166016DE6440A8EB96D /* CircleMenu.swift */,
+				FD95DAC9D0E98AEDE528B8373CD9C33C /* CircleMenuButton.swift */,
+				DF25D234692AFCA80A5763CD6F538794 /* CircleMenuLoader.swift */,
+				906D222A1D964CC9D9F18DA6289780D7 /* Support Files */,
+			);
+			name = CircleMenu;
+			path = CircleMenu;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -300,16 +364,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C5A9A2C887C18AED305ECA17B8D03CE6 /* CircleMenu */ = {
+		CC530995236CD2EDB3FFFCB37BF7360A /* Gemini */ = {
 			isa = PBXGroup;
 			children = (
-				7D2C4FFF40BEB499313CF24B1EEE37FB /* CircleMenu.swift */,
-				4BB8A4B19B5AC83B06FB6B82AFEBFB08 /* CircleMenuButton.swift */,
-				DFD869698F3B8EEFFB20814A6812E183 /* CircleMenuLoader.swift */,
-				3EA70A5B5C9517AE8042F2EEFC2568B5 /* Support Files */,
+				0A3179E017DE19CF249748BA3B7E460A /* CircleRotateAnimatable.swift */,
+				CA9321236912634E7EEF07B8ED63649D /* CubeAnimatable.swift */,
+				BEB9164C31CB6E61C12436CA571738C9 /* CustomAnimatable.swift */,
+				1DA84229EBD3C502687170C471863721 /* EasingAnimatable.swift */,
+				075AE30837EF807C2EBD2042DC26D897 /* EasingFunction.swift */,
+				312F44F6F7EE744A14A264A1E79D9888 /* GeminiAnimationModel.swift */,
+				F004501EC0E5582B7026F55B335E00B0 /* GeminiCell.swift */,
+				A9BF402CDAF247F812989ABC3331128F /* GeminiCollectionView.swift */,
+				42B844108A2C59F22D2B9704EFE453DC /* PitchRotationAnimatable.swift */,
+				27BFE9F1DAAB82E885B50FDD593372B6 /* RollRotationAnimatable.swift */,
+				A58E55F0E33CF24424297B41166DC64D /* ScaleAnimatable.swift */,
+				6EE0EABDC39FB496C16DDB4171F5456D /* UIAppearanceAnimatable.swift */,
+				73489C0346F593006D134A35656CB075 /* UIViewExtension.swift */,
+				F5B487FE8BD1FFB5C818E66AE9670CBC /* YawRotationAnimatable.swift */,
+				64D64B76E9491176AF3E36795D7774F1 /* Support Files */,
 			);
-			name = CircleMenu;
-			path = CircleMenu;
+			name = Gemini;
+			path = Gemini;
 			sourceTree = "<group>";
 		};
 		CD22205A015F36323C024B7FA3E9DA96 /* Targets Support Files */ = {
@@ -346,47 +421,55 @@
 			path = "Target Support Files/Pods-trianingpod";
 			sourceTree = "<group>";
 		};
-		DF1EE52F778345ED83510EF7A976172D /* ViewAnimator */ = {
+		DC8B2187D82C57507C4DDE97E5BA2986 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				62478A38BEAEAC51787A9F149DBE7FD9 /* Animatable.swift */,
-				79C3CD0AD4726FDBA4D701CDC12E7AE7 /* Animation.swift */,
-				5138718FFE2678E18D72AFA8B15C822C /* AnimationType.swift */,
-				676E7F469640BF3C80DA1D2B3D3232D3 /* Constants.swift */,
-				33B8D5BFE8E9318729689E38EC775ED8 /* Direction.swift */,
-				2CC4A682CBF84435C7BAE28DE35960EA /* Utilities.swift */,
-				057EB78A82B54A3C7A98545543307E1F /* ViewAnimator.swift */,
-				85B49E213E2C4419446A57107CFD0AA7 /* ViewAnimatorConfig.swift */,
-				27BBE0AECA8FC8B018F531E34E93F9EC /* Support Files */,
+				AF88977176EE97CC114DDC6388F41C41 /* AnimatedCollectionViewLayout.modulemap */,
+				C39AF4DE2CA84D63DCD98F35BFE5EC88 /* AnimatedCollectionViewLayout.xcconfig */,
+				1D26AC9836F14FD268B48FA7157414D2 /* AnimatedCollectionViewLayout-dummy.m */,
+				E4816F22AC268B1782FC181998B996DC /* AnimatedCollectionViewLayout-prefix.pch */,
+				FC48B7E7AB3C8F7CFFB58FAE2BB93109 /* AnimatedCollectionViewLayout-umbrella.h */,
+				C0B3AFE9EC08093541A9CA94D128EE6F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		FAB8F5B604F24D08D96813C70E77C0B8 /* AnimatedCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				685CD2112EF1C98C75CAD6BCA8E78A7E /* AnimatedCollectionViewLayout.swift */,
+				8379F4E5C67DE11CAB29102FB90DF62C /* CrossFadeAttributesAnimator.swift */,
+				4BE168707568F332EB3942872018C029 /* CubeAttributesAnimator.swift */,
+				A7B75E969F7358F73640C11AA458AF0A /* LayoutAttributesAnimator.swift */,
+				2F052DD8E42C5D26FA835C1BDEB491EE /* LinearCardAttributesAnimator.swift */,
+				198B4523B36B68FA738E40360C014825 /* PageAttributesAnimator.swift */,
+				3F73E52FE187EB277093648274B46545 /* ParallaxAttributesAnimator.swift */,
+				3325FE94ECAAF8DBD60396AF66E34B26 /* RotateInOutAttributesAnimator.swift */,
+				A4419862E911555E9B2BA47A653A3C49 /* SnapInAttributesAnimator.swift */,
+				75BF264771D81FC6D6ADB91B82F7CCC2 /* UIView+Anchor.swift */,
+				D46C34A36293A12700794B72211BDA87 /* ZoomInOutAttributesAnimator.swift */,
+				DC8B2187D82C57507C4DDE97E5BA2986 /* Support Files */,
+			);
+			name = AnimatedCollectionViewLayout;
+			path = AnimatedCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		FE51C0E256745BB8BFC89C296692AB5D /* ViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				533A40ED7514A8D1CC821DB949E4CC2B /* Animatable.swift */,
+				37E08F338D30D9261C923BDA7FF5000E /* Animation.swift */,
+				9A2403BE8C6E110E991FA92D8EBB96CF /* AnimationType.swift */,
+				BC52C026A6B3BDA2223E920C8465FA05 /* Constants.swift */,
+				7F15E797D4DD21EAA0A3D2346D1C6859 /* Direction.swift */,
+				AF2CCAB1A266BDE98460D0D6475C3E43 /* Utilities.swift */,
+				7B4C2A513D4735C21B55CB50BF12FC42 /* ViewAnimator.swift */,
+				53BC0A59D7DDD9C46BDF01586FB4069B /* ViewAnimatorConfig.swift */,
+				4AD108D01714B27D80EB062C8ADADAB3 /* Support Files */,
 			);
 			name = ViewAnimator;
 			path = ViewAnimator;
-			sourceTree = "<group>";
-		};
-		E0470A08995900E547373AA0F6A5309E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B97704630868B38656904B6400CA44E /* Gemini.modulemap */,
-				C5B45110378C5201B4771F30F5A3D535 /* Gemini.xcconfig */,
-				4CCD66E355DB33433730F71B0E7EF5BD /* Gemini-dummy.m */,
-				88E6090090CA3309B83E60B8571FE0A4 /* Gemini-prefix.pch */,
-				CD6ADF10870BA9E5D7941E61A6008994 /* Gemini-umbrella.h */,
-				C83DF268C9B2D098DD6FD390120D7B6C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Gemini";
-			sourceTree = "<group>";
-		};
-		FEAD0ACC8A9FEF4027D4DB8906E12147 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E539478BDCF735300CE68F85C2579560 /* CircleMenu.framework */,
-				75077F52FDB9867FB7AC81557EF375AC /* Gemini.framework */,
-				A9BE3BDF9F774C9A00AB4BC0B946AA1D /* GuillotineMenu.framework */,
-				579970526D98E8690AC02389FEA29A6E /* Pods_trianingpod.framework */,
-				01F4B23D03B2B77019F53B3C50C57C47 /* ViewAnimator.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,11 +483,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B6E8F8E244B9E43883BCB8CC38CAE80 /* Headers */ = {
+		630B1760D9537FD16F5BC965DDEB3052 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED01748FDE9523E8081F39D82891C4B /* ViewAnimator-umbrella.h in Headers */,
+				07D7B1108D49DCCFDA57A97FF394FE49 /* Pods-trianingpod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +499,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC51D90AB01D6A9C432CF11DDB11E753 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A7D024376267C95A49645F1C5292C6 /* ViewAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C83ECA8E13B86848550545CFE89D9D11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,24 +515,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E13E3F751E37E4111FAF305413A25274 /* Headers */ = {
+		CD22FD7D889DDD75136E3A022E855F7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3874C2E22EA2FE4693177EF5956331F8 /* Pods-trianingpod-umbrella.h in Headers */,
+				A4312948C1CDF0C35BC92E6118602537 /* AnimatedCollectionViewLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		38266070EB7F3014AEA3D347C57046A6 /* ViewAnimator */ = {
+		01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92E14223C72B9C2AB752B5B86F72C1FA /* Build configuration list for PBXNativeTarget "ViewAnimator" */;
+			buildConfigurationList = F6C88F719B2AF55EEFFD88A2BE8F10DD /* Build configuration list for PBXNativeTarget "AnimatedCollectionViewLayout" */;
 			buildPhases = (
-				D4F57CF74C31EA2AB0F798479C27E2C7 /* Sources */,
-				14BC1B2449720D5978B508623377E7A4 /* Frameworks */,
-				9B6E8F8E244B9E43883BCB8CC38CAE80 /* Headers */,
+				809FA6DE3ED35BB7B97126DA58072C76 /* Sources */,
+				7B286E7A43102940D94EC219C3FBC877 /* Frameworks */,
+				CD22FD7D889DDD75136E3A022E855F7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedCollectionViewLayout;
+			productName = AnimatedCollectionViewLayout;
+			productReference = 85CED797906AC3CD6EAB5A3843A4FDD3 /* AnimatedCollectionViewLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55279576263A3C14E72445976FA5BAD4 /* ViewAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCC122DEDF1A75DF942C0D79A9FE4D8 /* Build configuration list for PBXNativeTarget "ViewAnimator" */;
+			buildPhases = (
+				14E3C2FE4ED723D70AF9DE631E2CE365 /* Sources */,
+				9ECFBC443E4E4C0AD95C650F93D9C293 /* Frameworks */,
+				BC51D90AB01D6A9C432CF11DDB11E753 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -449,7 +557,29 @@
 			);
 			name = ViewAnimator;
 			productName = ViewAnimator;
-			productReference = 01F4B23D03B2B77019F53B3C50C57C47 /* ViewAnimator.framework */;
+			productReference = 2FAB6D4EDE86646AFBB5BF65E45829C6 /* ViewAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73CEC61DA7731EEB7F093D7A0DF07929 /* Pods-trianingpod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EAC2096C5BBC859D7E242238FDE860 /* Build configuration list for PBXNativeTarget "Pods-trianingpod" */;
+			buildPhases = (
+				48A2419656A7BE146BB1BD331A9CFB79 /* Sources */,
+				572626C366E218C3C49D0D3180899432 /* Frameworks */,
+				630B1760D9537FD16F5BC965DDEB3052 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19E6CCD57606D2EC20F8A1EB3F2A68C /* PBXTargetDependency */,
+				AFD895525B2956F1415DB501734A3576 /* PBXTargetDependency */,
+				6DB58E076C4D139E561A2B550D7B0820 /* PBXTargetDependency */,
+				B573ADDC9E21EF7204A80F4DFF4D9BBF /* PBXTargetDependency */,
+				EB072B202007DA33A326969255BC5C1D /* PBXTargetDependency */,
+			);
+			name = "Pods-trianingpod";
+			productName = "Pods-trianingpod";
+			productReference = 51D931A0537EC51559E30C092A8CF1F8 /* Pods_trianingpod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7BDE4A0097B901ED452A26CD14A2C344 /* GuillotineMenu */ = {
@@ -466,28 +596,7 @@
 			);
 			name = GuillotineMenu;
 			productName = GuillotineMenu;
-			productReference = A9BE3BDF9F774C9A00AB4BC0B946AA1D /* GuillotineMenu.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D524FD6B1D44DAB1A66092B26DC307A7 /* Pods-trianingpod */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 85550D82C95307736E86A36B23F7A52F /* Build configuration list for PBXNativeTarget "Pods-trianingpod" */;
-			buildPhases = (
-				8F92EF10BC8622C43FD2F41A3358B349 /* Sources */,
-				488C84DA29FB2A5720D4F65D63941C8A /* Frameworks */,
-				E13E3F751E37E4111FAF305413A25274 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				094C54837249FE1F8CF40D956C7F2753 /* PBXTargetDependency */,
-				19E9313136787F9DE1E30DDB01395FFC /* PBXTargetDependency */,
-				24670BC645FB1380929620BA3D73CE4E /* PBXTargetDependency */,
-				E0FA078E0C5B91929924D4643B4D2E63 /* PBXTargetDependency */,
-			);
-			name = "Pods-trianingpod";
-			productName = "Pods-trianingpod";
-			productReference = 579970526D98E8690AC02389FEA29A6E /* Pods_trianingpod.framework */;
+			productReference = 98A8814600B2F3E96F8A31AD236B7314 /* GuillotineMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FCD5AA9DE71943D0A20424568E1AAB6C /* Gemini */ = {
@@ -504,7 +613,7 @@
 			);
 			name = Gemini;
 			productName = Gemini;
-			productReference = 75077F52FDB9867FB7AC81557EF375AC /* Gemini.framework */;
+			productReference = 21E6BC664680EAEEA3D669FFE9F83C02 /* Gemini.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FE0EA4A854B31B97AB23A6135FCBFABD /* CircleMenu */ = {
@@ -521,7 +630,7 @@
 			);
 			name = CircleMenu;
 			productName = CircleMenu;
-			productReference = E539478BDCF735300CE68F85C2579560 /* CircleMenu.framework */;
+			productReference = A809F88EFE255575138F815E8C0C5958 /* CircleMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -541,15 +650,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FEAD0ACC8A9FEF4027D4DB8906E12147 /* Products */;
+			productRefGroup = A904D4EDB723841848D7DC89763C30EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */,
 				FE0EA4A854B31B97AB23A6135FCBFABD /* CircleMenu */,
 				FCD5AA9DE71943D0A20424568E1AAB6C /* Gemini */,
 				7BDE4A0097B901ED452A26CD14A2C344 /* GuillotineMenu */,
-				D524FD6B1D44DAB1A66092B26DC307A7 /* Pods-trianingpod */,
-				38266070EB7F3014AEA3D347C57046A6 /* ViewAnimator */,
+				73CEC61DA7731EEB7F093D7A0DF07929 /* Pods-trianingpod */,
+				55279576263A3C14E72445976FA5BAD4 /* ViewAnimator */,
 			);
 		};
 /* End PBXProject section */
@@ -577,6 +687,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14E3C2FE4ED723D70AF9DE631E2CE365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E14060CC0BA66E2BBEC241110C5A2F /* Animatable.swift in Sources */,
+				5C81DF5C968BF629155093945E8AF0CF /* Animation.swift in Sources */,
+				D6F10168CB68CF2BE9A95B492265E32A /* AnimationType.swift in Sources */,
+				60D46A7094987BBE822E3500D643C5AB /* Constants.swift in Sources */,
+				EC064143002B5D634F19E5EEB55B5512 /* Direction.swift in Sources */,
+				A2EDAC0271A2A2C724AA4294C2EF3D25 /* Utilities.swift in Sources */,
+				4FE8893FC7EB0AC0904A5FD29422D095 /* ViewAnimator-dummy.m in Sources */,
+				03F52A2AF70E7FD97E14FEE5F8EE3285 /* ViewAnimator.swift in Sources */,
+				FEE8B90D0ADD46E6B9AA1EC7247340B2 /* ViewAnimatorConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AA03FDB415446532553416E80451A76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -597,61 +723,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F92EF10BC8622C43FD2F41A3358B349 /* Sources */ = {
+		48A2419656A7BE146BB1BD331A9CFB79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD5410BF73E5EDA3DECF23466F5B5467 /* Pods-trianingpod-dummy.m in Sources */,
+				E87212F4DDA72C9C7C02878226D76D73 /* Pods-trianingpod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4F57CF74C31EA2AB0F798479C27E2C7 /* Sources */ = {
+		809FA6DE3ED35BB7B97126DA58072C76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CD17D18260466FC735EECA32BC86137 /* Animatable.swift in Sources */,
-				13EF7BD2E5D84792DC490732EC7EB326 /* Animation.swift in Sources */,
-				60D87E8A97E717B0E4843D14D420118E /* AnimationType.swift in Sources */,
-				87021576A14AEC628F5853FCFB4EECE8 /* Constants.swift in Sources */,
-				142E0675024F15D3F85C1248BBBC2F7A /* Direction.swift in Sources */,
-				A8DD138806B5C9EE2E717998C0612FCD /* Utilities.swift in Sources */,
-				F89D42A49A79EA2B4A247B83D04CF5BA /* ViewAnimator-dummy.m in Sources */,
-				982A4EAC609E7B3D1E4FDA4D73F44868 /* ViewAnimator.swift in Sources */,
-				8AB555609DB257647921B9F07A3E8770 /* ViewAnimatorConfig.swift in Sources */,
+				3448F958C584DB2F0007F60C1D7C8F0E /* AnimatedCollectionViewLayout-dummy.m in Sources */,
+				61C552D3D8E8535D17FE67E7A1241E2F /* AnimatedCollectionViewLayout.swift in Sources */,
+				1DB658B6052ECB623162518123B77756 /* CrossFadeAttributesAnimator.swift in Sources */,
+				6C3E0ED549F157B68511CEA0FCFFBE2C /* CubeAttributesAnimator.swift in Sources */,
+				675FC8085F139617288ECDF622AFBDB7 /* LayoutAttributesAnimator.swift in Sources */,
+				25C0613E2A219CCBC754E32839090857 /* LinearCardAttributesAnimator.swift in Sources */,
+				A54630491BB0108B124C967C2A100F08 /* PageAttributesAnimator.swift in Sources */,
+				1802C70744FC5ACF32217ACBF5260972 /* ParallaxAttributesAnimator.swift in Sources */,
+				1125A5CE7857DA14A4C8E6D742C4596F /* RotateInOutAttributesAnimator.swift in Sources */,
+				0FDDDEBF4DB465F3EE253A58B15419DF /* SnapInAttributesAnimator.swift in Sources */,
+				520A9C5F907E09600B65840BD97D7CC7 /* UIView+Anchor.swift in Sources */,
+				7F40B8BBCC675E39488BCC8C4B49268A /* ZoomInOutAttributesAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		094C54837249FE1F8CF40D956C7F2753 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CircleMenu;
-			target = FE0EA4A854B31B97AB23A6135FCBFABD /* CircleMenu */;
-			targetProxy = 96CEF0BA6FC3F471827896AFC766D195 /* PBXContainerItemProxy */;
-		};
-		19E9313136787F9DE1E30DDB01395FFC /* PBXTargetDependency */ = {
+		6DB58E076C4D139E561A2B550D7B0820 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Gemini;
 			target = FCD5AA9DE71943D0A20424568E1AAB6C /* Gemini */;
-			targetProxy = E53CF847ABE32986ADCAB28A87EF695D /* PBXContainerItemProxy */;
+			targetProxy = FC09C7B8CE9316044D26B8B07840F440 /* PBXContainerItemProxy */;
 		};
-		24670BC645FB1380929620BA3D73CE4E /* PBXTargetDependency */ = {
+		AFD895525B2956F1415DB501734A3576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleMenu;
+			target = FE0EA4A854B31B97AB23A6135FCBFABD /* CircleMenu */;
+			targetProxy = 5B6E7571459D6500DB88225C5911ED61 /* PBXContainerItemProxy */;
+		};
+		B19E6CCD57606D2EC20F8A1EB3F2A68C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedCollectionViewLayout;
+			target = 01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */;
+			targetProxy = 78046BD976737CD6DD3D1DA8484C0A01 /* PBXContainerItemProxy */;
+		};
+		B573ADDC9E21EF7204A80F4DFF4D9BBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GuillotineMenu;
 			target = 7BDE4A0097B901ED452A26CD14A2C344 /* GuillotineMenu */;
-			targetProxy = D1286D68A0F98B6EB68A461EAA3769A3 /* PBXContainerItemProxy */;
+			targetProxy = C03C2136E58F2F048EDFA1666A681AFC /* PBXContainerItemProxy */;
 		};
-		E0FA078E0C5B91929924D4643B4D2E63 /* PBXTargetDependency */ = {
+		EB072B202007DA33A326969255BC5C1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ViewAnimator;
-			target = 38266070EB7F3014AEA3D347C57046A6 /* ViewAnimator */;
-			targetProxy = 2EA2EA7FFA437BC47E6B7F6AAFC42ACC /* PBXContainerItemProxy */;
+			target = 55279576263A3C14E72445976FA5BAD4 /* ViewAnimator */;
+			targetProxy = 813455EC7756C35CB6A93AD8D2E81A7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F8A65BA609C5BC701A3CF6A2C191429 /* Release */ = {
+		07EF12A7403189580276FEE4090CC71D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77539B14818F4EFC313664630F4B3CC8 /* Pods-trianingpod.release.xcconfig */;
 			buildSettings = {
@@ -685,6 +820,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		114CE7154C14D28B746B6E193D07E61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39AF4DE2CA84D63DCD98F35BFE5EC88 /* AnimatedCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.modulemap";
+				PRODUCT_NAME = AnimatedCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -741,44 +907,9 @@
 			};
 			name = Release;
 		};
-		3C0D6D43B556465D8988F79C10AC0185 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 041A8FCC2899326128514F82C7D047DF /* Pods-trianingpod.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-trianingpod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-trianingpod/Pods-trianingpod.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_trianingpod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5AB1BD357058FD6BBD12EBA0F0471588 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5B45110378C5201B4771F30F5A3D535 /* Gemini.xcconfig */;
+			baseConfigurationReference = AA57EFBC98AEFEC5106F712C60782529 /* Gemini.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -808,9 +939,9 @@
 			};
 			name = Release;
 		};
-		6F72AA2D24200B5D0E93C62BD7010926 /* Release */ = {
+		5E1230A0CFE854237638BCFC382A9147 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69A775B114F5816781EBCE73FF2F8F6C /* ViewAnimator.xcconfig */;
+			baseConfigurationReference = 05B5108576F90AB38CDD968CD7E6ED19 /* ViewAnimator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -842,7 +973,7 @@
 		};
 		8BDFE0C2373C69880E3769653476127F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81AA829AABE045AFCCE248739B492011 /* GuillotineMenu.xcconfig */;
+			baseConfigurationReference = A6FCACF59CCC413BDD618FDF685B6C97 /* GuillotineMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -873,7 +1004,7 @@
 		};
 		8E9FA294B545716452572E2451F36429 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81AA829AABE045AFCCE248739B492011 /* GuillotineMenu.xcconfig */;
+			baseConfigurationReference = A6FCACF59CCC413BDD618FDF685B6C97 /* GuillotineMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -902,6 +1033,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8FCCCB677AFC1BAE71A260863DE9535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B5108576F90AB38CDD968CD7E6ED19 /* ViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -963,9 +1125,41 @@
 			};
 			name = Debug;
 		};
+		9D3CBCBB7510EF81CAA826E830D1829D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39AF4DE2CA84D63DCD98F35BFE5EC88 /* AnimatedCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.modulemap";
+				PRODUCT_NAME = AnimatedCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BD0F035BC15A3681D1B41395D05C2101 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B480AC3251F766B047F63C18593A835F /* CircleMenu.xcconfig */;
+			baseConfigurationReference = F441E0EFDC917AF042D91B9D0339191E /* CircleMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -996,7 +1190,7 @@
 		};
 		D18DC9C1F03619F21F56121CCA9B140E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B480AC3251F766B047F63C18593A835F /* CircleMenu.xcconfig */;
+			baseConfigurationReference = F441E0EFDC917AF042D91B9D0339191E /* CircleMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1026,40 +1220,9 @@
 			};
 			name = Release;
 		};
-		F772AD3A8F805738DE2E3D1628623927 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69A775B114F5816781EBCE73FF2F8F6C /* ViewAnimator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ViewAnimator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
-				PRODUCT_NAME = ViewAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F907EAE36B57D66916DF76358F6AA75F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5B45110378C5201B4771F30F5A3D535 /* Gemini.xcconfig */;
+			baseConfigurationReference = AA57EFBC98AEFEC5106F712C60782529 /* Gemini.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1088,9 +1251,53 @@
 			};
 			name = Debug;
 		};
+		F9BF3C6ECE1BBE493B2015E49E47F63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041A8FCC2899326128514F82C7D047DF /* Pods-trianingpod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-trianingpod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trianingpod/Pods-trianingpod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_trianingpod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0FCC122DEDF1A75DF942C0D79A9FE4D8 /* Build configuration list for PBXNativeTarget "ViewAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCCCB677AFC1BAE71A260863DE9535A /* Debug */,
+				5E1230A0CFE854237638BCFC382A9147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		23B4FC383248FDC41DB69456A01BED90 /* Build configuration list for PBXNativeTarget "Gemini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1118,20 +1325,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85550D82C95307736E86A36B23F7A52F /* Build configuration list for PBXNativeTarget "Pods-trianingpod" */ = {
+		67EAC2096C5BBC859D7E242238FDE860 /* Build configuration list for PBXNativeTarget "Pods-trianingpod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C0D6D43B556465D8988F79C10AC0185 /* Debug */,
-				0F8A65BA609C5BC701A3CF6A2C191429 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92E14223C72B9C2AB752B5B86F72C1FA /* Build configuration list for PBXNativeTarget "ViewAnimator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F772AD3A8F805738DE2E3D1628623927 /* Debug */,
-				6F72AA2D24200B5D0E93C62BD7010926 /* Release */,
+				F9BF3C6ECE1BBE493B2015E49E47F63F /* Debug */,
+				07EF12A7403189580276FEE4090CC71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1141,6 +1339,15 @@
 			buildConfigurations = (
 				8BDFE0C2373C69880E3769653476127F /* Debug */,
 				8E9FA294B545716452572E2451F36429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C88F719B2AF55EEFFD88A2BE8F10DD /* Build configuration list for PBXNativeTarget "AnimatedCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114CE7154C14D28B746B6E193D07E61D /* Debug */,
+				9D3CBCBB7510EF81CAA826E830D1829D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
