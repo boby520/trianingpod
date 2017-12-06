@@ -13,6 +13,7 @@
 		98FC89C21FD7A46C003EC12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FC89C01FD7A46C003EC12D /* Main.storyboard */; };
 		98FC89C41FD7A46C003EC12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FC89C31FD7A46C003EC12D /* Assets.xcassets */; };
 		98FC89C71FD7A46C003EC12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FC89C51FD7A46C003EC12D /* LaunchScreen.storyboard */; };
+		98FC89CF1FD7C0C3003EC12D /* ThemeViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FC89CE1FD7C0C3003EC12D /* ThemeViewControllerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		98FC89C31FD7A46C003EC12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98FC89C61FD7A46C003EC12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98FC89C81FD7A46C003EC12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FC89CE1FD7C0C3003EC12D /* ThemeViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewControllerCell.swift; sourceTree = "<group>"; };
 		E91FDAAD2F77715129B7B78C /* Pods_trianingpod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trianingpod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 			children = (
 				98FC89BC1FD7A46C003EC12D /* AppDelegate.swift */,
 				98FC89BE1FD7A46C003EC12D /* ViewController.swift */,
+				98FC89CE1FD7C0C3003EC12D /* ThemeViewControllerCell.swift */,
 				98FC89C01FD7A46C003EC12D /* Main.storyboard */,
 				98FC89C31FD7A46C003EC12D /* Assets.xcassets */,
 				98FC89C51FD7A46C003EC12D /* LaunchScreen.storyboard */,
@@ -199,11 +202,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-trianingpod/Pods-trianingpod-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
 				"${BUILT_PRODUCTS_DIR}/GuillotineMenu/GuillotineMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GuillotineMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98FC89CF1FD7C0C3003EC12D /* ThemeViewControllerCell.swift in Sources */,
 				98FC89BF1FD7A46C003EC12D /* ViewController.swift in Sources */,
 				98FC89BD1FD7A46C003EC12D /* AppDelegate.swift in Sources */,
 			);
