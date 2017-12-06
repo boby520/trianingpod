@@ -5,6 +5,7 @@ pod 'GuillotineMenu', '~> 3.0'
 pod 'ViewAnimator'
 pod 'Gemini'
 pod 'CircleMenu'
+pod 'DOFavoriteButton'
 
 
 
