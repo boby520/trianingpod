@@ -11,6 +11,7 @@ import ViewAnimator
 import Gemini
 import CircleMenu
 import AnimatedCollectionViewLayout
+import XLActionController
 
 class ViewController: UIViewController {
     
@@ -24,6 +25,7 @@ class ViewController: UIViewController {
         
         setupcollectionview()
         setupbtn()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,7 +37,38 @@ class ViewController: UIViewController {
 }
 extension ViewController: UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
-   
+    func ab(){
+        
+        let actionSheet = TwitterActionController()
+
+//        let b = TwitterCell()
+//        b.backgroundColor = UIColor.red
+        // set up a header title
+        actionSheet.headerData = "Accounts"
+        // Add some actions, note that the first parameter of `Action` initializer is `ActionData`.
+      
+        actionSheet.addAction(Action(ActionData(title: "2", subtitle: "@remer88", image: UIImage(named: "icon_close")!), style: .default, handler: { action in
+            print("2")
+        }))
+        actionSheet.addAction(Action(ActionData(title: "3", subtitle: "@remer88", image: UIImage(named: "icon_close")!), style: .default, handler: { action in
+            // do something useful
+        }))
+        actionSheet.addAction(Action(ActionData(title: "4", subtitle: "@33333", image: UIImage(named: "icon_close")!), style: .destructive, handler: { action in
+            // do something useful
+        }))
+        // present actionSheet like any other view controller
+        
+        present(actionSheet, animated: true, completion: nil)
+       
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 
     func setupcollectionview(){
         
@@ -44,11 +77,8 @@ extension ViewController: UICollectionViewDataSource,UICollectionViewDelegateFlo
         layout.animator = PageAttributesAnimator()
     
         layout.itemSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 200)
-//        //滑动方向 默认方向是垂直
         layout.scrollDirection = .horizontal
-//        //每个Item之间最小的间距
 //        layout.minimumInteritemSpacing = 0
-//        //每行之间最小的间距
 //        layout.minimumLineSpacing = 0
 
 
@@ -85,6 +115,8 @@ extension ViewController: UICollectionViewDataSource,UICollectionViewDelegateFlo
     }
     
 }
+
+
 extension ViewController: CircleMenuDelegate{
     func setupbtn(){
         let button = CircleMenu(
@@ -123,10 +155,13 @@ extension ViewController: CircleMenuDelegate{
     
     func circleMenu(_ circleMenu: CircleMenu, buttonWillSelected button: UIButton, atIndex: Int) {
         print("button will selected: \(atIndex)")
+        ab()
     }
     
     func circleMenu(_ circleMenu: CircleMenu, buttonDidSelected button: UIButton, atIndex: Int) {
         print("button did selected: \(atIndex)")
     }
 }
+
+
 

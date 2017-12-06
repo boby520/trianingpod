@@ -6,6 +6,8 @@ pod 'ViewAnimator'
 pod 'Gemini'
 pod 'CircleMenu'
 pod 'AnimatedCollectionViewLayout'
+pod 'XLActionController'
+pod 'XLActionController/Twitter'
 
 
 

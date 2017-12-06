@@ -107,6 +107,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GuillotineMenu/GuillotineMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.framework"
@@ -114,6 +115,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GuillotineMenu/GuillotineMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
