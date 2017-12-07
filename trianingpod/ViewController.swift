@@ -12,6 +12,7 @@ import Gemini
 import CircleMenu
 import AnimatedCollectionViewLayout
 import XLActionController
+import SwiftGifOrigin
 
 class ViewController: UIViewController {
     
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
         
         setupcollectionview()
         setupbtn()
-        
+        setup()
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +36,30 @@ class ViewController: UIViewController {
 
 
 }
+extension ViewController{
+  func setup(){
+    let img = UIImageView()
+    img.frame = CGRect(x:0, y:0, width:200, height:200)
+    img.loadGif(name: "hhhh")
+    img.layer.masksToBounds = true
+    img.layer.cornerRadius = 100
+    self.view.addSubview(img)
+    self.view.insertSubview(img, at: 0)
+    
+    
+    let a = UIView()
+    a.frame = CGRect(x:0, y:0, width:UIScreen.main.bounds.width, height:UIScreen.main.bounds.height)
+    a.backgroundColor = UIColor(red: 0 / 255.0, green: 0 / 255.0, blue: 0 / 255.0, alpha: 0.3)
+    self.view.insertSubview(a, at: 1)
+    
+  }
+  
+
+
+
+
+}
+
 extension ViewController: UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     func ab(){
@@ -76,13 +101,13 @@ extension ViewController: UICollectionViewDataSource,UICollectionViewDelegateFlo
         let layout = AnimatedCollectionViewLayout()
         layout.animator = PageAttributesAnimator()
     
-        layout.itemSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 200)
+        layout.itemSize = CGSize(width: 100, height: 100)
         layout.scrollDirection = .horizontal
 //        layout.minimumInteritemSpacing = 0
 //        layout.minimumLineSpacing = 0
 
 
-        let collectionView = UICollectionView(frame: CGRect(x:0, y:0, width:UIScreen.main.bounds.width, height:UIScreen.main.bounds.height), collectionViewLayout: layout)
+        let collectionView = UICollectionView(frame: CGRect(x:(UIScreen.main.bounds.width-100)/2, y:UIScreen.main.bounds.height/2, width:100, height:100), collectionViewLayout: layout)
 
         collectionView.register(ThemeViewControllerCell.self, forCellWithReuseIdentifier: kIdentifer)
         collectionView.backgroundColor = UIColor.clear
@@ -125,7 +150,7 @@ extension ViewController: CircleMenuDelegate{
             selectedIcon:"icon_close",
             buttonsCount: 4,
             duration: 1,
-            distance: 120)
+            distance: 100)
         button.delegate = self
         button.layer.cornerRadius = button.frame.size.width / 2.0
         button.backgroundColor = UIColor.black

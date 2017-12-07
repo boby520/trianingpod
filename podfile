@@ -8,6 +8,9 @@ pod 'CircleMenu'
 pod 'AnimatedCollectionViewLayout'
 pod 'XLActionController'
 pod 'XLActionController/Twitter'
+pod 'FSPagerView'
+pod 'SwiftGifOrigin', '~> 1.6.1'
+
 
 
 

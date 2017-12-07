@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11F56FA090AE1ABCE416244F /* Pods_trianingpod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91FDAAD2F77715129B7B78C /* Pods_trianingpod.framework */; };
+		984A2E861FD92744006738F5 /* hhhh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 984A2E851FD92744006738F5 /* hhhh.gif */; };
 		98FC89BD1FD7A46C003EC12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FC89BC1FD7A46C003EC12D /* AppDelegate.swift */; };
 		98FC89BF1FD7A46C003EC12D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FC89BE1FD7A46C003EC12D /* ViewController.swift */; };
 		98FC89C21FD7A46C003EC12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FC89C01FD7A46C003EC12D /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		1AF854F1443142B1471E4AFF /* Pods-trianingpod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trianingpod.release.xcconfig"; path = "Pods/Target Support Files/Pods-trianingpod/Pods-trianingpod.release.xcconfig"; sourceTree = "<group>"; };
 		5744E02DE2853665D91E7C7F /* Pods-trianingpod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trianingpod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trianingpod/Pods-trianingpod.debug.xcconfig"; sourceTree = "<group>"; };
+		984A2E851FD92744006738F5 /* hhhh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hhhh.gif; path = ../../../../../../Downloads/hhhh.gif; sourceTree = "<group>"; };
 		98FC89B91FD7A46C003EC12D /* trianingpod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trianingpod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FC89BC1FD7A46C003EC12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98FC89BE1FD7A46C003EC12D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		984A2E841FD92731006738F5 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				984A2E851FD92744006738F5 /* hhhh.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
 		98FC89B01FD7A46C003EC12D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 				98FC89C31FD7A46C003EC12D /* Assets.xcassets */,
 				98FC89C51FD7A46C003EC12D /* LaunchScreen.storyboard */,
 				98FC89C81FD7A46C003EC12D /* Info.plist */,
+				984A2E841FD92731006738F5 /* gif */,
 			);
 			path = trianingpod;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984A2E861FD92744006738F5 /* hhhh.gif in Resources */,
 				98FC89C71FD7A46C003EC12D /* LaunchScreen.storyboard in Resources */,
 				98FC89C41FD7A46C003EC12D /* Assets.xcassets in Resources */,
 				98FC89C21FD7A46C003EC12D /* Main.storyboard in Resources */,
@@ -204,8 +216,10 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-trianingpod/Pods-trianingpod-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
 				"${BUILT_PRODUCTS_DIR}/GuillotineMenu/GuillotineMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
 				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework",
 			);
@@ -213,8 +227,10 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimatedCollectionViewLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GuillotineMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLActionController.framework",
 			);
