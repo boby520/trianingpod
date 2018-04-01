@@ -158,7 +158,7 @@
 			path = Imagepicker;
 			sourceTree = "<group>";
 		};
-		98C77CA620700B2600AC9672 /* AlterPickView */ = {
+		98C77CA620700B2600AC9672 /* IntPickView */ = {
 			isa = PBXGroup;
 			children = (
 				98C77CA720700B2600AC9672 /* UIView+Extensions.swift */,
@@ -166,7 +166,7 @@
 				98C77CA920700B2600AC9672 /* PickerViewViewController.swift */,
 				98C77CAA20700B2600AC9672 /* Common+Extensions.swift */,
 			);
-			path = AlterPickView;
+			path = IntPickView;
 			sourceTree = "<group>";
 		};
 		98CB748E204EEA78000315CF /* TodayViewController */ = {
@@ -203,7 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				9855141D20710CD900DCA489 /* ColorPickView */,
-				98C77CA620700B2600AC9672 /* AlterPickView */,
+				98C77CA620700B2600AC9672 /* IntPickView */,
 				98CB749C204FE7B1000315CF /* trianingpod.entitlements */,
 				98FC89BC1FD7A46C003EC12D /* AppDelegate.swift */,
 				98FC89BE1FD7A46C003EC12D /* ViewController.swift */,
