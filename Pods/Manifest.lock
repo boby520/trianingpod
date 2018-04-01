@@ -1,38 +1,56 @@
 PODS:
-  - AnimatedCollectionViewLayout (0.3.0)
-  - CircleMenu (3.0.0)
-  - FSPagerView (0.7.1)
-  - Gemini (1.2.0)
-  - GuillotineMenu (3.0.1)
-  - SwiftGifOrigin (1.6.1)
-  - ViewAnimator (1.0.2)
-  - XLActionController (4.0.0):
-    - XLActionController/Core (= 4.0.0)
-  - XLActionController/Core (4.0.0)
-  - XLActionController/Twitter (4.0.0):
-    - XLActionController/Core
+  - CVCalendar (1.6.1)
+  - D2PDatePicker (0.1.4)
+  - DatePickerDialog (2.0)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - Hue (3.0.1)
+  - PDFReader (2.5.0)
+  - Realm (3.1.1):
+    - Realm/Headers (= 3.1.1)
+  - Realm/Headers (3.1.1)
+  - RealmSwift (3.1.1):
+    - Realm (= 3.1.1)
+  - SnapKit (4.0.0)
+  - TextFieldEffects (1.4.0)
 
 DEPENDENCIES:
-  - AnimatedCollectionViewLayout
-  - CircleMenu
-  - FSPagerView
-  - Gemini
-  - GuillotineMenu (~> 3.0)
-  - SwiftGifOrigin (~> 1.6.1)
-  - ViewAnimator
-  - XLActionController
-  - XLActionController/Twitter
+  - CVCalendar
+  - D2PDatePicker
+  - DatePickerDialog
+  - FontAwesomeKit/FontAwesome
+  - FontAwesomeKit/IonIcons
+  - Hue
+  - PDFReader (from `https://github.com/Alua-Kinzhebayeva/iOS-PDF-Reader`, tag `2.5.0`)
+  - RealmSwift
+  - SnapKit
+  - TextFieldEffects
+
+EXTERNAL SOURCES:
+  PDFReader:
+    :git: https://github.com/Alua-Kinzhebayeva/iOS-PDF-Reader
+    :tag: 2.5.0
+
+CHECKOUT OPTIONS:
+  PDFReader:
+    :git: https://github.com/Alua-Kinzhebayeva/iOS-PDF-Reader
+    :tag: 2.5.0
 
 SPEC CHECKSUMS:
-  AnimatedCollectionViewLayout: 504b992a4258eb39d2dd2b2b48e84b4b95860fd7
-  CircleMenu: 63d02351f5cb550777b47aa19cc336e09fec2a98
-  FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
-  Gemini: acff98012273066f1b83c887731260abfaf18ec5
-  GuillotineMenu: d186bcb1b827d9c2b8da564bc4535a0c4413acb1
-  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
-  ViewAnimator: d7b18e0be98e05807f61ad886a36363727209377
-  XLActionController: 7e88fece1799e61357cb00b1cc67104d66ec4d2c
+  CVCalendar: 505c11b11a088b43f159806e791eba1c2540853b
+  D2PDatePicker: e35a6b3dd5fac16de8a17606dc0bb285e8b1a875
+  DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  PDFReader: 8fd7009f66d4904dd804c41d1f8f69b4a6982495
+  Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
+  RealmSwift: d31937ca6a6ee54acde64ec839523c0a3c04924b
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
 
-PODFILE CHECKSUM: e9004c3627a0b35d6527b16002f34c3adc388525
+PODFILE CHECKSUM: cff0b9cbb5ea3c4d5c76fe8bee2135937c29496d
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0
