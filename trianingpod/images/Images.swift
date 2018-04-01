@@ -43,7 +43,9 @@ class Images {
         return originalImg
       }
     }
-    UIGraphicsBeginImageContext(sizeChange)
+    //如果不行 使用注释代码
+//    UIGraphicsBeginImageContext(sizeChange)
+    UIGraphicsBeginImageContextWithOptions(sizeChange, false, 0.0)
     //draw resized image on Context
     originalImg.draw(in: CGRect(x:0, y:0, width: sizeChange.width, height: sizeChange.height))
     //create UIImage
