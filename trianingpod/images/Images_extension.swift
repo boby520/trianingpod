@@ -6,9 +6,7 @@
 //  Copyright © 2018年 林洪州. All rights reserved.
 //
 
-import Foundation
 import UIKit
-import Photos
 
 class Images {
   //压缩图片尺寸
@@ -53,16 +51,18 @@ class Images {
     UIGraphicsEndImageContext()
     return resizedImg!
   }
+  
   //截屏uiview
-  func getImage(size: CGSize , currentView: UIView) -> UIImage {
+ class func getImage(size: CGSize , currentView: UIView) -> UIImage {
     UIGraphicsBeginImageContextWithOptions( size, false, 0.0)
     currentView.layer.render(in: UIGraphicsGetCurrentContext()!)
     let image = UIGraphicsGetImageFromCurrentImageContext()
     UIGraphicsEndImageContext()
     return image!
   }
+  
   //截屏手机
-  func screenSnapshot() -> UIImage? {
+ class func screenSnapshot() -> UIImage? {
     guard let window = UIApplication.shared.keyWindow else { return nil }
     // 用下面这行而不是UIGraphicsBeginImageContext()，因为前者支持Retina
     UIGraphicsBeginImageContextWithOptions(window.bounds.size, false, 0.0)
@@ -73,8 +73,44 @@ class Images {
     return image
   }
   
+  //设置大小
+ class func reSizeImage(reSize:CGSize, image: UIImage)->UIImage {
+
+    UIGraphicsBeginImageContextWithOptions(reSize,false,UIScreen.main.scale)
+    
+    image.draw(in: CGRect(x:0, y:0, width: reSize.width, height: reSize.height))
+    let reSizeImage:UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+    
+    UIGraphicsEndImageContext()
+    return reSizeImage
+    
+    
+  }
   
+  
+  //压缩大小和尺寸
+ class func compressImageSize(image:UIImage) -> UIImage{
+    
+    var zipImageData = UIImageJPEGRepresentation(image, 1.0)!
+      //获取图片大小
+    let originalImgSize = zipImageData.count/1024 as Int
+    
+    if originalImgSize>1500 {
+      zipImageData = UIImageJPEGRepresentation(image,0.2)!
+    }else if originalImgSize>600 {
+      zipImageData = UIImageJPEGRepresentation(image,0.4)!
+    }else if originalImgSize>400 {
+      zipImageData = UIImageJPEGRepresentation(image,0.6)!
+    }else if originalImgSize>300 {
+      zipImageData = UIImageJPEGRepresentation(image,0.7)!
+    }else if originalImgSize>200 {
+      zipImageData = UIImageJPEGRepresentation(image,0.8)!
+    }
+    
+    let image = UIImage(data: zipImageData)!
+    
+    
+    return image
+  }
 }
-
-
 
