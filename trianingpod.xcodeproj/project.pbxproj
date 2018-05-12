@@ -14,8 +14,12 @@
 		985514232071105B00DCA489 /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985514222071105B00DCA489 /* GradientSlider.swift */; };
 		985514252071120400DCA489 /* color.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985514242071120300DCA489 /* color.storyboard */; };
 		985C4918205802310097AB79 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C4917205802310097AB79 /* Color.swift */; };
+		98A6B45620A43CA000361BFB /* function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6B45520A43CA000361BFB /* function.swift */; };
+		98A6B45920A440C000361BFB /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6B45820A440C000361BFB /* PhotoCollectionViewCell.swift */; };
+		98A6B45B20A4776200361BFB /* LinearCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6B45A20A4776200361BFB /* LinearCollectionViewLayout.swift */; };
+		98A6B45D20A557CC00361BFB /* PhotoPickCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6B45C20A557CC00361BFB /* PhotoPickCollectionView.swift */; };
+		98A6B46F20A5803900361BFB /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6B46D20A5803900361BFB /* CellView.swift */; };
 		98AF9B7120592796005FE6CA /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF9B7020592796005FE6CA /* Animate.swift */; };
-		98AF9B74205945E2005FE6CA /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF9B73205945E2005FE6CA /* Images.swift */; };
 		98C77CAB20700B2600AC9672 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C77CA720700B2600AC9672 /* UIView+Extensions.swift */; };
 		98C77CAC20700B2600AC9672 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C77CA820700B2600AC9672 /* UIAlertController+Extensions.swift */; };
 		98C77CAD20700B2600AC9672 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C77CA920700B2600AC9672 /* PickerViewViewController.swift */; };
@@ -64,8 +68,12 @@
 		985514222071105B00DCA489 /* GradientSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
 		985514242071120300DCA489 /* color.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = color.storyboard; sourceTree = "<group>"; };
 		985C4917205802310097AB79 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		98A6B45520A43CA000361BFB /* function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = function.swift; sourceTree = "<group>"; };
+		98A6B45820A440C000361BFB /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		98A6B45A20A4776200361BFB /* LinearCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearCollectionViewLayout.swift; sourceTree = "<group>"; };
+		98A6B45C20A557CC00361BFB /* PhotoPickCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickCollectionView.swift; sourceTree = "<group>"; };
+		98A6B46D20A5803900361BFB /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		98AF9B7020592796005FE6CA /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
-		98AF9B73205945E2005FE6CA /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		98C77CA720700B2600AC9672 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		98C77CA820700B2600AC9672 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
 		98C77CA920700B2600AC9672 /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +132,7 @@
 				9855141E20710ED100DCA489 /* ColorPickerViewController.swift */,
 				985514222071105B00DCA489 /* GradientSlider.swift */,
 				9855142020710FA900DCA489 /* UIColor+Extensions.swift */,
+				98A6B45520A43CA000361BFB /* function.swift */,
 				985514242071120300DCA489 /* color.storyboard */,
 			);
 			path = ColorPickView;
@@ -134,6 +143,24 @@
 			children = (
 			);
 			path = Trianing;
+			sourceTree = "<group>";
+		};
+		98A6B45720A4408700361BFB /* PhotoCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				98A6B45820A440C000361BFB /* PhotoCollectionViewCell.swift */,
+				98A6B45C20A557CC00361BFB /* PhotoPickCollectionView.swift */,
+				98A6B45A20A4776200361BFB /* LinearCollectionViewLayout.swift */,
+			);
+			path = PhotoCollectionView;
+			sourceTree = "<group>";
+		};
+		98A6B46C20A5803900361BFB /* DateCellCreatedWithXIB */ = {
+			isa = PBXGroup;
+			children = (
+				98A6B46D20A5803900361BFB /* CellView.swift */,
+			);
+			path = DateCellCreatedWithXIB;
 			sourceTree = "<group>";
 		};
 		98C77CA620700B2600AC9672 /* IntPickView */ = {
@@ -161,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				98FC89BB1FD7A46C003EC12D /* trianingpod */,
+				98A6B45720A4408700361BFB /* PhotoCollectionView */,
 				98CB748E204EEA78000315CF /* TodayViewController */,
 				98FC89BA1FD7A46C003EC12D /* Products */,
 				A4E100BC5DC96EAF49E0750E /* Pods */,
@@ -180,14 +208,15 @@
 		98FC89BB1FD7A46C003EC12D /* trianingpod */ = {
 			isa = PBXGroup;
 			children = (
+				98FC89BC1FD7A46C003EC12D /* AppDelegate.swift */,
+				98FC89BE1FD7A46C003EC12D /* ViewController.swift */,
+				98A6B46C20A5803900361BFB /* DateCellCreatedWithXIB */,
 				98FCFF75207175ED00EFC116 /* images */,
 				98FCFF74207175D600EFC116 /* Animate */,
 				98FCFF73207175B300EFC116 /* Color */,
 				9855141D20710CD900DCA489 /* ColorPickView */,
 				98C77CA620700B2600AC9672 /* IntPickView */,
 				98CB749C204FE7B1000315CF /* trianingpod.entitlements */,
-				98FC89BC1FD7A46C003EC12D /* AppDelegate.swift */,
-				98FC89BE1FD7A46C003EC12D /* ViewController.swift */,
 				985C49162058020E0097AB79 /* Trianing */,
 				98FC89C01FD7A46C003EC12D /* Main.storyboard */,
 				98FC89C31FD7A46C003EC12D /* Assets.xcassets */,
@@ -216,7 +245,6 @@
 		98FCFF75207175ED00EFC116 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				98AF9B73205945E2005FE6CA /* Images.swift */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -243,7 +271,6 @@
 				98CB7488204EEA78000315CF /* Sources */,
 				98CB7489204EEA78000315CF /* Frameworks */,
 				98CB748A204EEA78000315CF /* Resources */,
-				C4B7C206058FA3938F51DED5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,7 +290,6 @@
 				98FC89B61FD7A46C003EC12D /* Frameworks */,
 				98FC89B71FD7A46C003EC12D /* Resources */,
 				C12427BDE1AAF75EC676A3F1 /* [CP] Embed Pods Frameworks */,
-				AF408223CD1FEFABF625E28D /* [CP] Copy Pods Resources */,
 				98D952D0204EE17700B89EBF /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -365,21 +391,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AF408223CD1FEFABF625E28D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trianingpod/Pods-trianingpod-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C12427BDE1AAF75EC676A3F1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,45 +401,26 @@
 				"${BUILT_PRODUCTS_DIR}/DatePickerDialog/DatePickerDialog.framework",
 				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/CVCalendar/CVCalendar.framework",
-				"${BUILT_PRODUCTS_DIR}/D2PDatePicker/D2PDatePicker.framework",
-				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePickerDialog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFReader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CVCalendar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/D2PDatePicker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trianingpod/Pods-trianingpod-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4B7C206058FA3938F51DED5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayViewController/Pods-TodayViewController-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D98FDE62628A6E15D7528DD7 /* [CP] Check Pods Manifest.lock */ = {
@@ -464,18 +456,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A6B45D20A557CC00361BFB /* PhotoPickCollectionView.swift in Sources */,
+				98A6B45B20A4776200361BFB /* LinearCollectionViewLayout.swift in Sources */,
 				985514232071105B00DCA489 /* GradientSlider.swift in Sources */,
 				9855142120710FA900DCA489 /* UIColor+Extensions.swift in Sources */,
+				98A6B46F20A5803900361BFB /* CellView.swift in Sources */,
 				98FC89BF1FD7A46C003EC12D /* ViewController.swift in Sources */,
 				98C77CAB20700B2600AC9672 /* UIView+Extensions.swift in Sources */,
 				98C77CAE20700B2600AC9672 /* Common+Extensions.swift in Sources */,
 				98C77CAC20700B2600AC9672 /* UIAlertController+Extensions.swift in Sources */,
 				98AF9B7120592796005FE6CA /* Animate.swift in Sources */,
 				98C77CAD20700B2600AC9672 /* PickerViewViewController.swift in Sources */,
+				98A6B45920A440C000361BFB /* PhotoCollectionViewCell.swift in Sources */,
 				985C4918205802310097AB79 /* Color.swift in Sources */,
-				98AF9B74205945E2005FE6CA /* Images.swift in Sources */,
 				9855141F20710ED100DCA489 /* ColorPickerViewController.swift in Sources */,
 				98FC89BD1FD7A46C003EC12D /* AppDelegate.swift in Sources */,
+				98A6B45620A43CA000361BFB /* function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

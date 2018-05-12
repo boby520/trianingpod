@@ -13,6 +13,7 @@ target 'trianingpod' do
  pod 'DatePickerDialog'
  pod 'Hue'
  pod 'PDFReader', git: 'https://github.com/Alua-Kinzhebayeva/iOS-PDF-Reader', tag: '2.5.0'
+ pod 'JTAppleCalendar'
 
 end
 
@@ -21,9 +22,8 @@ target 'TodayViewController' do
   pod 'SnapKit'
   pod 'FontAwesomeKit/FontAwesome'
   pod 'FontAwesomeKit/IonIcons'
-  pod 'D2PDatePicker'
-  pod 'TextFieldEffects'
-  pod 'CVCalendar'
+
+
   
 end
 
