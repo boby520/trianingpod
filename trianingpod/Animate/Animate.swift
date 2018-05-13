@@ -35,10 +35,10 @@ class Animate{
     }
   }
   //移动
-  class func transAnimate(view: UIView){
-    UIView.animate(withDuration: 0.5){
-      view.center.y += 100
-      view.center.x += 100
+  class func transAnimate(view: UIView, y: CGFloat){
+    UIView.animate(withDuration: 0.2){
+      view.center.y = y
+     
     }
   }
   

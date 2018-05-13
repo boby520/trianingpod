@@ -15,7 +15,6 @@ class CellView: JTAppleCell {
   lazy var dayLabel: UILabel = {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
-    label.textColor = UIColor.black
     label.font = UIFont.systemFont(ofSize: 18)
     label.numberOfLines = 2
     
@@ -25,19 +24,19 @@ class CellView: JTAppleCell {
   lazy var selectedView: UIView = {
     let selectedView = UIView()
     selectedView.translatesAutoresizingMaskIntoConstraints = false
-    selectedView.backgroundColor = UIColor.black
-    selectedView.cornerRadius = 15
+    selectedView.backgroundColor = UIColor.gray
+    selectedView.layer.cornerRadius = 10
+    selectedView.layer.masksToBounds = false
     
     return selectedView
   }()
   
-  lazy var monthLabel: UILabel = {
-    let monthLabel = UILabel()
-    monthLabel.translatesAutoresizingMaskIntoConstraints = false
-    monthLabel.textColor = UIColor.black
-    monthLabel.font = UIFont.systemFont(ofSize: 14)
+  lazy var dotMakerView: UIView = {
+    let dotMakerView = UIView()
+    dotMakerView.translatesAutoresizingMaskIntoConstraints = false
+    dotMakerView.backgroundColor = UIColor.clear
     
-    return monthLabel
+    return dotMakerView
   }()
   
   
@@ -45,6 +44,7 @@ class CellView: JTAppleCell {
     super.init(frame: frame)
     
     setUI()
+    
   }
   
   required init?(coder aDecoder: NSCoder) {
@@ -58,7 +58,7 @@ extension CellView{
    
     addSubview(selectedView)
     addSubview(dayLabel)
-    addSubview(monthLabel)
+    addSubview(dotMakerView)
     
     dayLabel.snp.makeConstraints { (make) -> Void in
       make.center.equalTo(self)
@@ -69,8 +69,34 @@ extension CellView{
       make.center.equalTo(dayLabel)
     }
     
-    monthLabel.snp.makeConstraints { (make) -> Void in
-      make.top.equalTo(dayLabel.snp.bottom).offset(-15)
+    dotMakerView.snp.makeConstraints { (make) -> Void in
+      make.top.equalTo(selectedView.snp.bottom)
+      make.centerX.equalTo(selectedView)
+      make.size.equalTo(CGSize(width: 27, height: 4))
     }
   }
+}
+
+extension CellView{
+  func addMakers(colors: [UIColor], bool:Bool){
+    if(bool){
+      for (index, color) in colors.enumerated(){
+        let doMarkers = UIView()
+        let leftCGFlot:CGFloat = CGFloat(27/colors.count*index+21/colors.count/2)
+        doMarkers.backgroundColor = color
+        doMarkers.layer.cornerRadius = 2
+        doMarkers.layer.masksToBounds = false
+        
+        dotMakerView.addSubview(doMarkers)
+        doMarkers.snp.makeConstraints { (make) -> Void in
+          make.left.equalTo(dotMakerView).offset(leftCGFlot)
+          make.centerY.equalTo(dotMakerView)
+          make.size.equalTo(CGSize(width: 4, height: 4))
+        }
+      }
+    }
+  }
+  
+  
+  
 }
